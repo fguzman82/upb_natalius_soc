@@ -1,0 +1,1085 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+export CARAVEL_ROOT=/home/fabio/chip_tutorial/upb_natalius_soc/caravel && make -f /home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile all
+# make[1]: Entering directory '/home/fabio/chip_tutorial/upb_natalius_soc'
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jun  8 21:00:41 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+OPENLANE_TAG = 2022.02.23_02.50.41
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+PDK_MAGIC_COMMIT = 7d601628e4e05fd17fcb80c3552dacb64e9f6e7b
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/fabio/chip_tutorial/upb_natalius_soc
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:53827
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = fabio
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/home/fabio/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+SKYWATER_COMMIT = c094b6e83a4f9298e47f696ec5a7fd53535ec5eb
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 2318
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/fabio
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/fabio/anaconda3/bin:/home/fabio/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/fabio-server:@/tmp/.ICE-unix/2550,unix/fabio-server:/tmp/.ICE-unix/2550
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+CONDA_PREFIX = /home/fabio/anaconda3
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 019f3c8a103c41deba5d429996d746fb
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 8179
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+CONDA_EXE = /home/fabio/anaconda3/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/fabio/chip_tutorial/upb_natalius_soc
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2515
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/fabio
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/fabio/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = fabio
+# environment
+MISMATCHES_OK = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 1
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-220f5ab3-bd25-411a-a7de-3fa7dce768d3.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = fabio
+# makefile
+.DEFAULT_GOAL := 
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = es_CO:es
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-50557b02-1.67.2-main.sock
+# makefile
+MAKEFLAGS = prRw --warn-undefined-variables
+# environment
+MFLAGS = -prRw --warn-undefined-variables
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/fabio/anaconda3/bin/python
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+OPEN_PDKS_COMMIT = 7519dfb04400f224f140749cda44ee7de6f5e095
+# environment
+VSCODE_PID = 8179
+# environment
+CARAVEL_ROOT = /home/fabio/chip_tutorial/upb_natalius_soc/caravel
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=112/1024=11%, Rehash=0, Collisions=18/135=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/14=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 6 / storage = 115 B / avg = 19 B
+# current buf: size = 8162 B / used = 115 B / count = 6 / avg = 19 B
+
+# strcache performance: lookups = 9 / hit rate = 33%
+# hash-table stats:
+ 
+make[1]: /home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile: No such file or directory
+make[1]: *** No rule to make target '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile'.  Stop.
+
+# Load=6/8192=0%, Rehash=0, Collisions=0/9=0%
+# Finished Make data base on Wed Jun  8 21:00:41 2022
+
+# make[1]: Leaving directory '/home/fabio/chip_tutorial/upb_natalius_soc'
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jun  8 21:00:41 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# makefile (from 'Makefile', line 132)
+make_what = setup $(blocks) $(dv-targets-rtl) $(dv-targets-gl) $(dv-targets-gl-sdf) $(clean-targets)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# makefile (from 'Makefile', line 25)
+PDK_MAGIC_COMMIT = 7d601628e4e05fd17fcb80c3552dacb64e9f6e7b
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/fabio/chip_tutorial/upb_natalius_soc
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:53827
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 30)
+CARAVEL_LITE = 1
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = fabio
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/home/fabio/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# makefile (from 'Makefile', line 23)
+SKYWATER_COMMIT = c094b6e83a4f9298e47f696ec5a7fd53535ec5eb
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 2318
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/fabio
+# makefile (from 'Makefile', line 26)
+OPENLANE_TAG = 2022.02.23_02.50.41
+# makefile (from 'Makefile', line 80)
+docker_run_verify = docker run -v ${TARGET_PATH}:${TARGET_PATH} -v ${PDK_ROOT}:${PDK_ROOT} -v ${CARAVEL_ROOT}:${CARAVEL_ROOT} -e TARGET_PATH=${TARGET_PATH} -e PDK_ROOT=${PDK_ROOT} -e CARAVEL_ROOT=${CARAVEL_ROOT} -e TOOLS=/opt/riscv32i -e DESIGNS=$(TARGET_PATH) -e CORE_VERILOG_PATH=$(TARGET_PATH)/mgmt_core_wrapper/verilog -e GCC_PREFIX=riscv32-unknown-elf -e MCW_ROOT=$(MCW_ROOT) -u $$(id -u $$USER):$$(id -g $$USER) efabless/dv_setup:latest sh -c $(verify_command)
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/fabio/anaconda3/bin:/home/fabio/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'Makefile', line 73)
+dv-targets-rtl = $(dv_patterns:%=verify-%-rtl)
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/fabio-server:@/tmp/.ICE-unix/2550,unix/fabio-server:/tmp/.ICE-unix/2550
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 77)
+TARGET_PATH = $(shell pwd)
+# environment
+CONDA_PREFIX = /home/fabio/anaconda3
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 019f3c8a103c41deba5d429996d746fb
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# makefile (from 'Makefile', line 36)
+CARAVEL_REPO := https://github.com/efabless/caravel-lite
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 8179
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+CONDA_EXE = /home/fabio/anaconda3/bin/conda
+# makefile (from 'Makefile', line 35)
+CARAVEL_NAME := caravel-lite
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 78)
+verify_command = "cd ${TARGET_PATH}/verilog/dv/$* && export SIM=${SIM} && make"
+# environment
+PWD = /home/fabio/chip_tutorial/upb_natalius_soc
+# makefile (from 'Makefile', line 27)
+MISMATCHES_OK = 1
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2515
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/fabio
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/fabio/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = fabio
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile', line 37)
+CARAVEL_TAG := mpw-6b
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 21)
+SIM = RTL
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-220f5ab3-bd25-411a-a7de-3fa7dce768d3.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = fabio
+# makefile
+.DEFAULT_GOAL := install
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 75)
+dv-targets-gl-sdf = $(dv_patterns:%=verify-%-gl-sdf)
+# makefile (from 'Makefile', line 72)
+dv_patterns = $(shell cd verilog/dv && find * -maxdepth 0 -type d)
+# makefile (from 'Makefile', line 19)
+PRECHECK_ROOT = ${HOME}/mpw_precheck
+# makefile (from 'Makefile', line 74)
+dv-targets-gl = $(dv_patterns:%=verify-%-gl)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 20)
+MCW_ROOT = $(PWD)/mgmt_core_wrapper
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = es_CO:es
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-50557b02-1.67.2-main.sock
+# makefile
+MAKEFLAGS = pqrR --warn-undefined-variables
+# environment
+MFLAGS = -pqrR --warn-undefined-variables
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 79)
+dv_base_dependencies = simenv
+# environment
+QT_ACCESSIBILITY = 1
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 67)
+blocks = $(shell cd openlane && find * -maxdepth 0 -type d)
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/fabio/anaconda3/bin/python
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'Makefile', line 32)
+MPW_TAG = mpw-6b
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 120)
+clean-targets = $(blocks:%=clean-%)
+# environment
+LANG = C
+# makefile (from 'Makefile', line 24)
+OPEN_PDKS_COMMIT = 7519dfb04400f224f140749cda44ee7de6f5e095
+# environment
+VSCODE_PID = 8179
+# makefile (from 'Makefile', line 18)
+CARAVEL_ROOT = $(PWD)/caravel
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=132/1024=13%, Rehash=0, Collisions=47/281=17%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66307, inode 38803119): 19 files, no impossibilities.
+
+# 19 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%:
+#  recipe to execute (from 'Makefile', line 47):
+	export CARAVEL_ROOT=$(CARAVEL_ROOT) && $(MAKE) -f $(CARAVEL_ROOT)/Makefile $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+ 
+setup: install check-env install_mcw openlane pdk-with-volare
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 108)
+verify-la_test2-rtl: SIM = RTL
+verify-la_test2-rtl: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'la_test2'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 110):
+	$(docker_run_verify)
+
+# makefile (from 'Makefile', line 112)
+verify-io_ports-gl: SIM = GL
+verify-io_ports-gl: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'io_ports'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 114):
+	$(docker_run_verify)
+
+# makefile (from 'Makefile', line 108)
+verify-wb_port-rtl: SIM = RTL
+verify-wb_port-rtl: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'wb_port'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 110):
+	$(docker_run_verify)
+
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'all'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := all
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/18=11%
+#  recipe to execute (from 'Makefile', line 47):
+	export CARAVEL_ROOT=$(CARAVEL_ROOT) && $(MAKE) -f $(CARAVEL_ROOT)/Makefile $@
+
+# makefile (from 'Makefile', line 116)
+verify-la_test2-gl-sdf: SIM = GL_SDF
+verify-la_test2-gl-sdf: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'la_test2'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 118):
+	$(docker_run_verify)
+
+.PHONY: check-caravel install simenv setup user_proj_example user_project_wrapper harden verify verify-all-rtl verify-all-gl verify-all-gl-sdf clean-user_proj_example clean-user_project_wrapper what openlane simlink update_caravel uninstall precheck run-precheck clean help
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: '.PHONY'
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 112)
+verify-mprj_stimulus-gl: SIM = GL
+verify-mprj_stimulus-gl: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'mprj_stimulus'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 114):
+	$(docker_run_verify)
+
+# makefile (from 'Makefile', line 116)
+verify-wb_port-gl-sdf: SIM = GL_SDF
+verify-wb_port-gl-sdf: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'wb_port'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 118):
+	$(docker_run_verify)
+
+# Not a target:
+check-env:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+install_mcw:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+uninstall:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 165):
+	rm -rf $(CARAVEL_ROOT)
+
+Makefile:
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Makefile'
+#  Last modified 2022-06-08 20:58:11.404331697
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 47):
+	export CARAVEL_ROOT=$(CARAVEL_ROOT) && $(MAKE) -f $(CARAVEL_ROOT)/Makefile $@
+
+run-precheck: check-pdk check-precheck
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 177):
+	$(eval INPUT_DIRECTORY := $(shell pwd))
+	cd $(PRECHECK_ROOT) && \
+	docker run -v $(PRECHECK_ROOT):$(PRECHECK_ROOT) -v $(INPUT_DIRECTORY):$(INPUT_DIRECTORY) -v $(PDK_ROOT):$(PDK_ROOT) -e INPUT_DIRECTORY=$(INPUT_DIRECTORY) -e PDK_ROOT=$(PDK_ROOT) \
+	-u $(shell id -u $(USER)):$(shell id -g $(USER)) efabless/mpw_precheck:latest bash -c "cd $(PRECHECK_ROOT) ; python3 mpw_precheck.py --input_directory $(INPUT_DIRECTORY) --pdk_root $(PDK_ROOT)"
+
+openlane:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 140):
+	cd openlane && $(MAKE) openlane
+
+# makefile (from 'Makefile', line 108)
+verify-io_ports-rtl: SIM = RTL
+verify-io_ports-rtl: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'io_ports'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 110):
+	$(docker_run_verify)
+
+clean-user_proj_example:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'user_proj_example'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 123):
+	rm -f ./verilog/gl/$*.v
+	rm -f ./spef/$*.spef
+	rm -f ./sdc/$*.sdc
+	rm -f ./sdf/$*.sdf
+	rm -f ./gds/$*.gds
+	rm -f ./mag/$*.mag
+	rm -f ./lef/$*.lef
+	rm -f ./maglef/*.maglef
+
+verify-all-gl: verify-io_ports-gl verify-la_test1-gl verify-la_test2-gl verify-mprj_stimulus-gl verify-wb_port-gl
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 209):
+	cd $(CARAVEL_ROOT) && $(MAKE) help
+	@$(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F: '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$'
+
+user_proj_example:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'user_proj_example'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+	export CARAVEL_ROOT=$(CARAVEL_ROOT) && cd openlane && $(MAKE) $*
+
+# makefile (from 'Makefile', line 116)
+verify-io_ports-gl-sdf: SIM = GL_SDF
+verify-io_ports-gl-sdf: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'io_ports'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 118):
+	$(docker_run_verify)
+
+# makefile (from 'Makefile', line 108)
+verify-mprj_stimulus-rtl: SIM = RTL
+verify-mprj_stimulus-rtl: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'mprj_stimulus'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 110):
+	$(docker_run_verify)
+
+# makefile (from 'Makefile', line 112)
+verify-la_test1-gl: SIM = GL
+verify-la_test1-gl: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'la_test1'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 114):
+	$(docker_run_verify)
+
+check-precheck:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 196):
+	@if [ ! -d "$(PRECHECK_ROOT)" ]; then \
+		echo "Pre-check Root: "$(PRECHECK_ROOT)" doesn't exists, please export the correct path before running make. "; \
+		exit 1; \
+	fi
+
+# makefile (from 'Makefile', line 116)
+verify-mprj_stimulus-gl-sdf: SIM = GL_SDF
+verify-mprj_stimulus-gl-sdf: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'mprj_stimulus'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 118):
+	$(docker_run_verify)
+
+# Not a target:
+pdk-with-volare:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+what:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 135):
+	# $(make_what)
+
+update_caravel: check-caravel
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 160):
+	cd $(CARAVEL_ROOT)/ && git checkout $(CARAVEL_TAG) && git pull
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+harden: user_proj_example user_project_wrapper
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+simlink: check-caravel
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 148):
+	$(eval MAKEFILE_PATH := $(shell realpath --relative-to=openlane $(CARAVEL_ROOT)/openlane/Makefile))
+	$(eval PIN_CFG_PATH  := $(shell realpath --relative-to=openlane/user_project_wrapper $(CARAVEL_ROOT)/openlane/user_project_wrapper_empty/pin_order.cfg))
+	mkdir -p openlane
+	mkdir -p openlane/user_project_wrapper
+	cd openlane &&\
+	ln -sf $(MAKEFILE_PATH) Makefile
+	cd openlane/user_project_wrapper &&\
+	ln -sf $(PIN_CFG_PATH) pin_order.cfg
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+ 
+make: *** [Makefile:47: all] Error 2
+
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 186):
+	cd ./verilog/dv/ && \
+		$(MAKE) -j$(THREADS) clean
+
+precheck:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 172):
+	@git clone --depth=1 --branch $(MPW_TAG) https://github.com/efabless/mpw_precheck.git $(PRECHECK_ROOT)
+	@docker pull efabless/mpw_precheck:latest
+
+check-pdk:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 202):
+	@if [ ! -d "$(PDK_ROOT)" ]; then \
+		echo "PDK Root: "$(PDK_ROOT)" doesn't exists, please export the correct path before running make. "; \
+		exit 1; \
+	fi
+
+# makefile (from 'Makefile', line 112)
+verify-la_test2-gl: SIM = GL
+verify-la_test2-gl: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'la_test2'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 114):
+	$(docker_run_verify)
+
+verify: verify-io_ports-rtl verify-la_test1-rtl verify-la_test2-rtl verify-mprj_stimulus-rtl verify-wb_port-rtl
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# makefile (from 'Makefile', line 112)
+verify-wb_port-gl: SIM = GL
+verify-wb_port-gl: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'wb_port'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 114):
+	$(docker_run_verify)
+
+check-caravel:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 190):
+	@if [ ! -d "$(CARAVEL_ROOT)" ]; then \
+		echo "Caravel Root: "$(CARAVEL_ROOT)" doesn't exists, please export the correct path before running make. "; \
+		exit 1; \
+	fi
+
+verify-all-rtl: verify-io_ports-rtl verify-la_test1-rtl verify-la_test2-rtl verify-mprj_stimulus-rtl verify-wb_port-rtl
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean-user_project_wrapper:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'user_project_wrapper'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 123):
+	rm -f ./verilog/gl/$*.v
+	rm -f ./spef/$*.spef
+	rm -f ./sdc/$*.sdc
+	rm -f ./sdf/$*.sdf
+	rm -f ./gds/$*.gds
+	rm -f ./mag/$*.mag
+	rm -f ./lef/$*.lef
+	rm -f ./maglef/*.maglef
+
+# makefile (from 'Makefile', line 108)
+verify-la_test1-rtl: SIM = RTL
+verify-la_test1-rtl: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'la_test1'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 110):
+	$(docker_run_verify)
+
+user_project_wrapper:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'user_project_wrapper'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+	export CARAVEL_ROOT=$(CARAVEL_ROOT) && cd openlane && $(MAKE) $*
+
+verify-all-gl-sdf: verify-io_ports-gl-sdf verify-la_test1-gl-sdf verify-la_test2-gl-sdf verify-mprj_stimulus-gl-sdf verify-wb_port-gl-sdf
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+simenv:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	docker pull efabless/dv_setup:latest
+
+# makefile (from 'Makefile', line 116)
+verify-la_test1-gl-sdf: SIM = GL_SDF
+verify-la_test1-gl-sdf: simenv
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'la_test1'
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 118):
+	$(docker_run_verify)
+
+install:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 51):
+	if [ -d "$(CARAVEL_ROOT)" ]; then\
+		echo "Deleting exisiting $(CARAVEL_ROOT)" && \
+		rm -rf $(CARAVEL_ROOT) && sleep 2;\
+	fi
+	echo "Installing $(CARAVEL_NAME).."
+	git clone -b $(CARAVEL_TAG) $(CARAVEL_REPO) $(CARAVEL_ROOT) --depth=1
+
+# files hash-table stats:
+# Load=47/1024=5%, Rehash=0, Collisions=3/201=1%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 76 / storage = 925 B / avg = 12 B
+# current buf: size = 8162 B / used = 925 B / count = 76 / avg = 12 B
+
+# strcache performance: lookups = 246 / hit rate = 69%
+# hash-table stats:
+# Load=76/8192=1%, Rehash=0, Collisions=1/246=0%
+# Finished Make data base on Wed Jun  8 21:00:41 2022
+
+ 
