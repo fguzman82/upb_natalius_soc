@@ -24,7 +24,7 @@ module vga_control(
 	 input [2:0] ncolor,
     output reg hs, vs,
 	 output [2:0] color,
-    output [12:0] addrb
+    output [10:0] addrb
     );
 
 reg [9:0] hcnt;
@@ -100,9 +100,9 @@ always@(posedge clk or posedge rst)
 
 assign color=blank? 0: ncolor;
 			
-//we change format dividing by 4, slicing from 640x480 to 80x60
-assign x=hcnt[9:3];
-assign y=vcnt[8:3];
+//we change format dividing by 4, slicing from 640x480 to 40x30
+assign x=hcnt[9:4];
+assign y=vcnt[8:4];
 assign addrb={y, x};
 
 

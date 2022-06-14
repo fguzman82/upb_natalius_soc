@@ -35,7 +35,7 @@ module natalius_soc(
 	input wbs_stb_i,
     input web,
     input [1:0]   wmask0, // write mask
-    input [11:0]  addr0,
+    input [31:0]  addr0,
     input [15:0]  din0,
     output [15:0] dout0
     );
@@ -51,19 +51,19 @@ wire write_e;
 
 reg [7:0] din_reg;
 reg rst_ext;
-reg [6:0] col;
-reg [5:0] row;
+reg [5:0] col;
+reg [4:0] row;
 reg [2:0] color;
 reg we;
 
-wire [12:0] addr_write, addr_read;
-wire [3:0] doutb;
+wire [10:0] addr_write, addr_read;
+wire [2:0] doutb;
 wire [2:0] color_out;
 wire [7:0] mem_out;
 
 assign io_oeb = 21'b000001111111100000000;
-assign csb = !(wbs_cyc_i && wbs_stb_i);
-assign csb1_en = !(wbs_adr_i[11:0] == 12'b100000000000);
+assign csb = !(wbs_cyc_i && wbs_stb_i && addr0[29] && addr0[28]);
+assign csb1_en = ((addr0[11:0] == 12'b100000000000) && addr0[29] && addr0[28] && wbs_cyc_i && wbs_stb_i);
 
 always@(posedge clk)
 	if (rst_ext==1 || rst==1)
@@ -77,7 +77,7 @@ always@(posedge clk or posedge rst)
 		col<=0;
 	else
 		if (port_addr[7:5]==3'b001 && write_e==1)
-			col<=data_out[6:0];
+			col<=data_out[5:0];
 			
 			
 //row register (addr=64)
@@ -86,7 +86,7 @@ always@(posedge clk or posedge rst)
 		row<=0;
 	else
 		if (port_addr[7:5]==3'b010 && write_e==1)
-			row<=data_out[5:0];
+			row<=data_out[4:0];
 			
 
 //color register (addr=96)
@@ -127,10 +127,10 @@ assign data_in=(port_addr[7:5]==000) ? mem_out : din_reg;
 
 assign addr_write={row, col};
 
-natalius_processor processor(clk,rst,port_addr,read_e,write_e,data_in,data_out, csb, !web, wmask0, addr0[10:0], din0, dout0, csb1_en);
+natalius_processor processor(clk,rst,port_addr,read_e,write_e,data_in,data_out, csb, !web, wmask0, addr0[10:0], din0, dout0, !csb1_en);
 memram ram_memory(clk,data_out,port_addr[4:0],mem_out,write_e);
-mem_video video_mem(clk,we,addr_write,addr_read,{1'b0,color},doutb);
-vga_control video_cntrl(clk,rst,doutb[2:0],hs,vs,color_out,addr_read);
+mem_video video_mem(clk,we,addr_write,addr_read,color,doutb);
+vga_control video_cntrl(clk,rst,doutb,hs,vs,color_out,addr_read);
 
 assign r=color_out[2];
 assign g=color_out[1];

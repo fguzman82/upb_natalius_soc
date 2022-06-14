@@ -78,6 +78,8 @@ module user_project_wrapper #(
     output [2:0] user_irq
 );
 
+
+
 natalius_soc natalius_soc_i (
 `ifdef USE_POWER_PINS
 	.vccd1(vccd1),	// User area 1 1.8V power
@@ -98,9 +100,9 @@ natalius_soc natalius_soc_i (
     .wbs_stb_i(wbs_stb_i),
     .web(wbs_we_i),
     .wmask0(wbs_sel_i[1:0]),
-    .addr0(wbs_adr_i[11:0]),
+    .addr0(wbs_adr_i),
     .din0(wbs_dat_i[15:0]),
-    .dout0({16'd0, wbs_dat_o[15:0]})
+    .dout0(wbs_dat_o[15:0])
     );
 
 

@@ -26,13 +26,13 @@ module shiftbyte(
 
 	always@*
 		case (sh)
-			0: dshift <= {din[6:0], 0};
+			0: dshift <= {din[6:0], 1'b0};
 			1: dshift <= {din[6:0], din[7]};
-			2: dshift <= {0, din[7:1]};
+			2: dshift <= {1'b0, din[7:1]};
 			3: dshift <= {din[0], din[7:1]};
 			4: dshift <= din;
-			5: dshift <= {din[6:0], 1};
-			6: dshift <= {1, din[7:1]};
+			5: dshift <= {din[6:0], 1'b1};
+			6: dshift <= {1'b1, din[7:1]};
 			default: dshift <= din;
 		endcase
 

@@ -21,14 +21,13 @@
 module mem_video(
     input clk,
 	 input we,
-    input [12:0] addr_write,
-    input [12:0] addr_read,
-    input [3:0] din,
-    output reg [3:0] dout
+    input [10:0] addr_write,
+    input [10:0] addr_read,
+    input [2:0] din,
+    output reg [2:0] dout
     );
 
-	(* RAM_STYLE="BLOCK" *)
-	 reg [3:0] ram_video [8191:0];
+	reg [2:0] ram_video [2048:0];
 	
 	  
    always @(posedge clk) 

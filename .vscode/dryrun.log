@@ -1,8 +1,8 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/fabio/chip_tutorial/upb_natalius_soc'
- 
 export CARAVEL_ROOT=/home/fabio/chip_tutorial/upb_natalius_soc/caravel && make -f /home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile Makefile
 make[1]: Entering directory '/home/fabio/chip_tutorial/upb_natalius_soc'
+ 
 make[1]: Nothing to be done for 'Makefile'.
 make[1]: Leaving directory '/home/fabio/chip_tutorial/upb_natalius_soc'
 if [ -d "/home/fabio/chip_tutorial/upb_natalius_soc/caravel" ]; then\
@@ -13,9 +13,3 @@ echo "Installing caravel-lite.."
 git clone -b mpw-6b https://github.com/efabless/caravel-lite /home/fabio/chip_tutorial/upb_natalius_soc/caravel --depth=1
 make: Leaving directory '/home/fabio/chip_tutorial/upb_natalius_soc'
  
-make[1]: /home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile: No such file or directory
-make[1]: *** No rule to make target '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile'.
-make[1]: Failed to remake makefile '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile'.
-make: *** [Makefile:47: Makefile] Error 2
-make: Failed to remake makefile 'Makefile'.
-

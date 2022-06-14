@@ -26,7 +26,6 @@ module memram(
     input we
     );
 
-   (* RAM_STYLE="DISTRIBUTED" *)
    
 	reg [7:0] ram [31:0];
 

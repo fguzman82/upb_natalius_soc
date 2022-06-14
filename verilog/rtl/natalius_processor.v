@@ -61,16 +61,17 @@ control_unit control_unit_i(clk,rst,instruction,z,c,port_addr,write_e,read_e,ins
 data_path data_path_i(clk,rst,data_in,insel,we,raa,rab,wa,opalu,sh,selpc,selk,ldpc,ldflag,wr_en,rd_en,ninst_addr,KTE,imm,selimm, data_out,inst_addr,stack_addr,z,c);
 dualport_sram inst_mem(
     //w-r
+    .clk0(clk),
     .csb0(csb0),
     .web0(web0),
     .wmask0(wmask0),
-    .addr0(addr0),
+    .addr0(addr0[10:0]),
     .din0(din0),
     .dout0(dout0),
     .clk1(clk),
     //r
     .csb1(csb1),
-    .addr1(inst_addr),
+    .addr1(inst_addr[10:0]),
     .dout1(instruction)
   );
 

@@ -1,5 +1,16 @@
 # Caravel user project includes
 -v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
--v $(USER_PROJECT_VERILOG)/rtl/user_proj_example.v
+-v $(USER_PROJECT_VERILOG)/rtl/natalius_soc.v
+-v $(USER_PROJECT_VERILOG)/rtl/memram.v
+-v $(USER_PROJECT_VERILOG)/rtl/mem_video.v
+-v $(USER_PROJECT_VERILOG)/rtl/vga_control.v
+-v $(USER_PROJECT_VERILOG)/rtl/natalius_processor.v
+-v $(USER_PROJECT_VERILOG)/rtl/ALU.v
+-v $(USER_PROJECT_VERILOG)/rtl/control_unit.v
+-v $(USER_PROJECT_VERILOG)/rtl/data_path.v
+-v $(USER_PROJECT_VERILOG)/rtl/dualport_sram.v
+-v $(USER_PROJECT_VERILOG)/rtl/LIFO.v
+-v $(USER_PROJECT_VERILOG)/rtl/regfile.v
+-v $(USER_PROJECT_VERILOG)/rtl/shiftbyte.v
 
  
