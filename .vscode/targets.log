@@ -1,5 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 export CARAVEL_ROOT=/home/fabio/chip_tutorial/upb_natalius_soc/caravel && make -f /home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile all
+ 
 # make[1]: Entering directory '/home/fabio/chip_tutorial/upb_natalius_soc'
  
 make[1]: *** No rule to make target 'all'.  Stop.
@@ -11,7 +12,7 @@ make[1]: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 14 09:54:34 2022
+# Make data base, printed on Tue Jun 14 11:25:45 2022
 
 # Variables
 
@@ -132,7 +133,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 38071
+GIO_LAUNCHED_DESKTOP_FILE_PID = 42664
 # automatic
 %F = $(notdir $%)
 # environment
@@ -202,7 +203,7 @@ LVS_GDS_BLOCKS = $(foreach block, $(BLOCKS), lvs-gds-$(block))
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-3c71f133-4058-4044-a146-242c5489a45b.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-76b0f8a4-8f1b-4021-8aa4-be4c3355db70.sock
 # makefile (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 56)
 MCW_NAME := mcw-litex-vexriscv
 # default
@@ -216,7 +217,7 @@ USER = fabio
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # makefile (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 43)
-LARGE_FILES_GZ_SPLIT := ./gds/user_proj_example.gds.gz.00.split ./gds/user_project_wrapper.gds.gz.00.split ./gds/natalius_soc.gds.gz.00.split ./mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb42.pack.gz.00.split ./caravel/gds/user_analog_project_wrapper_empty.gds.gz.00.split ./caravel/gds/user_project_wrapper_empty.gds.gz.00.split ./mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/final/gds/DFFRAM.gds.gz.00.split ./mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/finishing/DFFRAM.gds.gz.00.split ./mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.27_21.29.28/results/final/gds/DFFRAM.gds.gz.00.split ./mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.27_21.29.28/results/finishing/DFFRAM.gds.gz.00.split ./mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/final/gds/mgmt_core_wrapper.gds.gz.00.split ./mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds.gz.00.split ./mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/final/gds/mgmt_core_wrapper.gds.gz.00.split ./mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/finishing/mgmt_core_wrapper.gds.gz.00.split ./mgmt_core_wrapper/gds/mgmt_core.gds.gz.00.split ./mgmt_core_wrapper/gds/mgmt_core_wrapper.gds.gz.00.split ./mgmt_core_wrapper/gds/DFFRAM.gds.gz.00.split
+LARGE_FILES_GZ_SPLIT := ./gds/user_proj_example.gds.gz.00.split ./gds/user_project_wrapper.gds.gz.00.split ./mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb42.pack.gz.00.split ./caravel/gds/user_analog_project_wrapper_empty.gds.gz.00.split ./caravel/gds/user_project_wrapper_empty.gds.gz.00.split ./mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/final/gds/DFFRAM.gds.gz.00.split ./mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/finishing/DFFRAM.gds.gz.00.split ./mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.27_21.29.28/results/final/gds/DFFRAM.gds.gz.00.split ./mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.27_21.29.28/results/finishing/DFFRAM.gds.gz.00.split ./mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/final/gds/mgmt_core_wrapper.gds.gz.00.split ./mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds.gz.00.split ./mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/final/gds/mgmt_core_wrapper.gds.gz.00.split ./mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/finishing/mgmt_core_wrapper.gds.gz.00.split ./mgmt_core_wrapper/gds/mgmt_core.gds.gz.00.split ./mgmt_core_wrapper/gds/mgmt_core_wrapper.gds.gz.00.split ./mgmt_core_wrapper/gds/DFFRAM.gds.gz.00.split
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # makefile (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 443)
@@ -230,7 +231,7 @@ CONDA_SHLVL = 1
 # default
 MAKE_COMMAND := make
 # makefile (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 40)
-LARGE_FILES_GZ := ./gds/user_proj_example.gds.gz ./gds/user_project_wrapper.gds.gz ./gds/natalius_soc.gds.gz ./mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb42.pack.gz
+LARGE_FILES_GZ := ./gds/user_proj_example.gds.gz ./gds/user_project_wrapper.gds.gz ./mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb42.pack.gz
 # default
 .VARIABLES := 
 # automatic
@@ -268,7 +269,7 @@ ARCHIVE_SOURCES := ./caravel/gds/user_analog_project_wrapper_empty.gds ./caravel
 # default
 MAKEFILES := 
 # makefile (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 39)
-LARGE_FILES := ./gds/user_proj_example.gds ./gds/user_project_wrapper.gds ./gds/natalius_soc.gds ./mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb42.pack
+LARGE_FILES := ./gds/user_proj_example.gds ./gds/user_project_wrapper.gds ./mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb42.pack
 # makefile (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 53)
 MCW_LITE = 1
 # automatic
@@ -302,7 +303,6 @@ WINDOWPATH = 2
 # makefile (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 472)
 MAG_BLOCKS = $(foreach block, $(BLOCKS), mag2lef-$(block))
 # environment
- 
 GJS_DEBUG_OUTPUT = stderr
 # default
 .RECIPEPREFIX := 
@@ -310,8 +310,9 @@ GJS_DEBUG_OUTPUT = stderr
 LANG = C
 # environment
 OPEN_PDKS_COMMIT = 7519dfb04400f224f140749cda44ee7de6f5e095
+ 
 # environment
-VSCODE_PID = 38071
+VSCODE_PID = 42664
 # environment
 CARAVEL_ROOT = /home/fabio/chip_tutorial/upb_natalius_soc/caravel
 # environment
@@ -818,7 +819,6 @@ xor-analog-wrapper: uncompress uncompress-caravel
 		$(CARAVEL_ROOT)/gds/user_analog_project_wrapper_empty_erased.gds gds/user_analog_project_wrapper_erased.gds \
 		user_analog_project_wrapper gds/user_analog_project_wrapper.xor.gds > signoff/user_analog_project_wrapper_xor/xor.log 
 	rm $(CARAVEL_ROOT)/gds/user_analog_project_wrapper_empty_erased.gds gds/user_analog_project_wrapper_erased.gds
- 
 	mv gds/user_analog_project_wrapper.xor.gds gds/user_analog_project_wrapper.xor.xml signoff/user_analog_project_wrapper_xor
 	python $(CARAVEL_ROOT)/utils/parse_klayout_xor_log.py \
 		-l signoff/user_analog_project_wrapper_xor/xor.log \
@@ -838,53 +838,9 @@ check-mcw:
 		exit 1; \
 	fi
 
-drc-natalius_soc: gds/natalius_soc.gds
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 436):
-	echo "Running DRC on $*"
-	mkdir -p ./gds/tmp
-	cd gds && export DESIGN_IN_DRC=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/drc_on_gds.tcl < /dev/null
-	@echo "DRC result: ./gds/tmp/$*.drc"
-
 drc-user_proj_example: gds/user_proj_example.gds
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: 'user_proj_example'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 436):
-	echo "Running DRC on $*"
-	mkdir -p ./gds/tmp
-	cd gds && export DESIGN_IN_DRC=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/drc_on_gds.tcl < /dev/null
-	@echo "DRC result: ./gds/tmp/$*.drc"
-
-drc-natalius_processor: gds/natalius_processor.gds
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_processor'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 436):
-	echo "Running DRC on $*"
-	mkdir -p ./gds/tmp
-	cd gds && export DESIGN_IN_DRC=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/drc_on_gds.tcl < /dev/null
-	@echo "DRC result: ./gds/tmp/$*.drc"
-
-gds/natalius_soc.gds.gz: gds/natalius_soc.gds
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'gds/natalius_soc.gds'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 214):
-	@if ! [ $(suffix $<) = ".$(ARCHIVE_EXT)" ]; then\
-		$(COMPRESS) $< > /dev/null &&\
-		echo "$< -> $@";\
-	fi
-
-drc-dualport_sram: gds/dualport_sram.gds
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'dualport_sram'
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 436):
@@ -900,125 +856,6 @@ check-env:
 #  File has not been updated.
 #  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 1327):
 	$(error PDK_ROOT is undefined, please export it before running make)
-
-rcx-inferred_sram: def/inferred_sram.def
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'inferred_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 511):
-	echo "Running RC Extraction on $*"
-	mkdir -p ./def/tmp 
-	# merge techlef and standard cell lef files
-	python3 $(OPENLANE_ROOT)/scripts/mergeLef.py -i $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/techlef/$(STD_CELL_LIBRARY).tlef $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lef/*.lef $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/techlef/$(SPECIAL_VOLTAGE_LIBRARY).tlef $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lef/*.lef $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lef/*.lef -o ./def/tmp/merged.lef
-	echo "\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lib/$(STD_CELL_LIBRARY)__tt_025C_1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30_lv1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lib/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib;\
-		set std_cell_lef ./def/tmp/merged.lef;\
-		set sram_lef $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef;\
-		if {[catch {read_lef \$$std_cell_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		if {[catch {read_lef \$$sram_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		foreach lef_file [glob ./lef/*.lef] {\
-			if {[catch {read_lef \$$lef_file} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-			}\
-		};\
-		if {[catch {read_def -order_wires ./def/$*.def} errmsg]} {\
-			puts stderr \$$errmsg;\
-			exit 1;\
-		};\
-		read_sdc -echo ./sdc/$*.sdc;\
-		set_propagated_clock [all_clocks];\
-		set rc_values \"mcon 9.249146E-3,via 4.5E-3,via2 3.368786E-3,via3 0.376635E-3,via4 0.00580E-3\";\
-		set l_rc \"li1 1.499e-04 7.176e-02,met1 1.449e-04 8.929e-04,met2 1.331e-04 8.929e-04,met3 1.464e-04 1.567e-04,met4 1.297e-04 1.567e-04,met5 1.501e-04 1.781e-05\";\
-		set layers_rc [split \$$l_rc ","];\
-		foreach layer_rc \$$layers_rc {\
-			set layer_name [lindex \$$layer_rc 0];\
-			set capacitance [lindex \$$layer_rc 1];\
-			set resistance [lindex \$$layer_rc 2];\
-			set_layer_rc -layer \$$layer_name -capacitance \$$capacitance -resistance \$$resistance;\
-		};\
-		set vias_rc [split \$$rc_values ","];\
-    	foreach via_rc \$$vias_rc {\
-        		set layer_name [lindex \$$via_rc 0];\
-        		set resistance [lindex \$$via_rc 1];\
-       			set_layer_rc -via \$$layer_name -resistance \$$resistance;\
-    	};\
-		set_wire_rc -signal -layer met2;\
-		set_wire_rc -clock -layer met5;\
-		define_process_corner -ext_model_index 0 X;\
-		extract_parasitics -ext_model_file ${PDK_ROOT}/$(PDK)/libs.tech/openlane/rcx_rules.info -corner_cnt 1 -max_res 50 -coupling_threshold 0.1 -cc_model 10 -context_depth 5;\
-		write_spef ./spef/$*.spef" > ./def/tmp/rcx_$*.tcl
-	docker run -it -v $(OPENLANE_ROOT):/openlane -v $(PDK_ROOT):$(PDK_ROOT) -v $(PWD):/caravel -e PDK_ROOT=$(PDK_ROOT) -u $(shell id -u $(USER)):$(shell id -g $(USER)) $(OPENLANE_IMAGE_NAME) \
-	sh -c " cd /caravel; openroad -exit ./def/tmp/rcx_$*.tcl |& tee ./def/tmp/rcx_$*.log" 
-	echo "\
-		set std_cell_lef ./def/tmp/merged.lef;\
-		set sram_lef $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef;\
-		if {[catch {read_lef \$$std_cell_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		if {[catch {read_lef \$$sram_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		foreach lef_file [glob ./lef/*.lef] {\
-			if {[catch {read_lef \$$lef_file} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-			}\
-		};\
-		set_cmd_units -time ns -capacitance pF -current mA -voltage V -resistance kOhm -distance um;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lib/$(STD_CELL_LIBRARY)__tt_025C_1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lib/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib;\
-		read_verilog ./verilog/gl/$*.v;\
-		link_design $*;\
-		read_spef ./spef/$*.spef;\
-		read_sdc -echo ./sdc/$*.sdc;\
-		write_sdf ./sdf/$*.sdf -divider . -include_typ;\
-		report_checks -fields {capacitance slew input_pins nets fanout} -path_delay min_max -group_count 5;\
-		report_check_types -max_slew -max_capacitance -max_fanout -violators;\
-		report_checks -to [all_outputs] -group_count 1000;\
-		" > ./def/tmp/sta_$*.tcl 
-	docker run -it -v $(OPENLANE_ROOT):/openlane -v $(PDK_ROOT):$(PDK_ROOT) -v $(PWD):/caravel -e PDK_ROOT=$(PDK_ROOT) -u $(shell id -u $(USER)):$(shell id -g $(USER)) $(OPENLANE_IMAGE_NAME) \
-	sh -c "cd /caravel; openroad -exit ./def/tmp/sta_$*.tcl |& tee ./def/tmp/sta_$*.log" 
 
 uninstall_mcw:
 #  Phony target (prerequisite of .PHONY).
@@ -1069,125 +906,6 @@ sky130:
 			make clean \
 		"
 
-rcx-dualport_sram: def/dualport_sram.def
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'dualport_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 511):
-	echo "Running RC Extraction on $*"
-	mkdir -p ./def/tmp 
-	# merge techlef and standard cell lef files
-	python3 $(OPENLANE_ROOT)/scripts/mergeLef.py -i $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/techlef/$(STD_CELL_LIBRARY).tlef $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lef/*.lef $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/techlef/$(SPECIAL_VOLTAGE_LIBRARY).tlef $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lef/*.lef $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lef/*.lef -o ./def/tmp/merged.lef
-	echo "\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lib/$(STD_CELL_LIBRARY)__tt_025C_1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30_lv1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lib/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib;\
-		set std_cell_lef ./def/tmp/merged.lef;\
-		set sram_lef $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef;\
-		if {[catch {read_lef \$$std_cell_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		if {[catch {read_lef \$$sram_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		foreach lef_file [glob ./lef/*.lef] {\
-			if {[catch {read_lef \$$lef_file} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-			}\
-		};\
-		if {[catch {read_def -order_wires ./def/$*.def} errmsg]} {\
-			puts stderr \$$errmsg;\
-			exit 1;\
-		};\
-		read_sdc -echo ./sdc/$*.sdc;\
-		set_propagated_clock [all_clocks];\
-		set rc_values \"mcon 9.249146E-3,via 4.5E-3,via2 3.368786E-3,via3 0.376635E-3,via4 0.00580E-3\";\
-		set l_rc \"li1 1.499e-04 7.176e-02,met1 1.449e-04 8.929e-04,met2 1.331e-04 8.929e-04,met3 1.464e-04 1.567e-04,met4 1.297e-04 1.567e-04,met5 1.501e-04 1.781e-05\";\
-		set layers_rc [split \$$l_rc ","];\
-		foreach layer_rc \$$layers_rc {\
-			set layer_name [lindex \$$layer_rc 0];\
-			set capacitance [lindex \$$layer_rc 1];\
-			set resistance [lindex \$$layer_rc 2];\
-			set_layer_rc -layer \$$layer_name -capacitance \$$capacitance -resistance \$$resistance;\
-		};\
-		set vias_rc [split \$$rc_values ","];\
-    	foreach via_rc \$$vias_rc {\
-        		set layer_name [lindex \$$via_rc 0];\
-        		set resistance [lindex \$$via_rc 1];\
-       			set_layer_rc -via \$$layer_name -resistance \$$resistance;\
-    	};\
-		set_wire_rc -signal -layer met2;\
-		set_wire_rc -clock -layer met5;\
-		define_process_corner -ext_model_index 0 X;\
-		extract_parasitics -ext_model_file ${PDK_ROOT}/$(PDK)/libs.tech/openlane/rcx_rules.info -corner_cnt 1 -max_res 50 -coupling_threshold 0.1 -cc_model 10 -context_depth 5;\
-		write_spef ./spef/$*.spef" > ./def/tmp/rcx_$*.tcl
-	docker run -it -v $(OPENLANE_ROOT):/openlane -v $(PDK_ROOT):$(PDK_ROOT) -v $(PWD):/caravel -e PDK_ROOT=$(PDK_ROOT) -u $(shell id -u $(USER)):$(shell id -g $(USER)) $(OPENLANE_IMAGE_NAME) \
-	sh -c " cd /caravel; openroad -exit ./def/tmp/rcx_$*.tcl |& tee ./def/tmp/rcx_$*.log" 
-	echo "\
-		set std_cell_lef ./def/tmp/merged.lef;\
-		set sram_lef $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef;\
-		if {[catch {read_lef \$$std_cell_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		if {[catch {read_lef \$$sram_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		foreach lef_file [glob ./lef/*.lef] {\
-			if {[catch {read_lef \$$lef_file} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-			}\
-		};\
-		set_cmd_units -time ns -capacitance pF -current mA -voltage V -resistance kOhm -distance um;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lib/$(STD_CELL_LIBRARY)__tt_025C_1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lib/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib;\
-		read_verilog ./verilog/gl/$*.v;\
-		link_design $*;\
-		read_spef ./spef/$*.spef;\
-		read_sdc -echo ./sdc/$*.sdc;\
-		write_sdf ./sdf/$*.sdf -divider . -include_typ;\
-		report_checks -fields {capacitance slew input_pins nets fanout} -path_delay min_max -group_count 5;\
-		report_check_types -max_slew -max_capacitance -max_fanout -violators;\
-		report_checks -to [all_outputs] -group_count 1000;\
-		" > ./def/tmp/sta_$*.tcl 
-	docker run -it -v $(OPENLANE_ROOT):/openlane -v $(PDK_ROOT):$(PDK_ROOT) -v $(PWD):/caravel -e PDK_ROOT=$(PDK_ROOT) -u $(shell id -u $(USER)):$(shell id -g $(USER)) $(OPENLANE_IMAGE_NAME) \
-	sh -c "cd /caravel; openroad -exit ./def/tmp/sta_$*.tcl |& tee ./def/tmp/sta_$*.log" 
-
 # Not a target:
 mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/final/gds/DFFRAM.gds.gz:
 #  Implicit rule search has not been done.
@@ -1204,6 +922,7 @@ install_mcw:
 		echo "Deleting exisiting $(MCW_ROOT)" && \
 		rm -rf $(MCW_ROOT) && sleep 2;\
 	fi
+ 
 	@echo "Installing $(MCW_NAME).."
 	@git clone -b $(MCW_TAG) $(MCW_REPO) $(MCW_ROOT) --depth=1
 
@@ -1224,51 +943,15 @@ gds/user_proj_example.gds.gz: gds/user_proj_example.gds
 		echo "$< -> $@";\
 	fi
 
-mag2gds-natalius_soc: mag/natalius_soc.mag uncompress
+# Not a target:
+openlane/README.src.rst:
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 455):
-	echo "Converting mag file $* to GDS..."
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath ${PDKPATH}/libs.ref/sky130_ml_xx_hd/mag;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		drc off;\
-		gds rescale false;\
-		load $* -dereference;\
-		select top cell;\
-		expand;\
-		gds write $*.gds;\
-		exit;" > ./mag/mag2gds_$*.tcl
-	cd ./mag && magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull mag2gds_$*.tcl < /dev/null
-	rm ./mag/mag2gds_$*.tcl
-	mv -f ./mag/$*.gds ./gds/
 
 mag2gds-user_proj_example: mag/user_proj_example.mag uncompress
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: 'user_proj_example'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 455):
-	echo "Converting mag file $* to GDS..."
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath ${PDKPATH}/libs.ref/sky130_ml_xx_hd/mag;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		drc off;\
-		gds rescale false;\
-		load $* -dereference;\
-		select top cell;\
-		expand;\
-		gds write $*.gds;\
-		exit;" > ./mag/mag2gds_$*.tcl
-	cd ./mag && magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull mag2gds_$*.tcl < /dev/null
-	rm ./mag/mag2gds_$*.tcl
-	mv -f ./mag/$*.gds ./gds/
-
-mag2gds-natalius_processor: mag/natalius_processor.mag uncompress
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_processor'
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 455):
@@ -1322,27 +1005,6 @@ mgmt_core_wrapper/gds/mgmt_core.gds.gz.00.split: mgmt_core_wrapper/gds/mgmt_core
 		echo -n "$< -> $$(ls $<.*.split)" | tr '\n' ' ' && echo "";\
 	fi
 
-mag2gds-dualport_sram: mag/dualport_sram.mag uncompress
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'dualport_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 455):
-	echo "Converting mag file $* to GDS..."
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath ${PDKPATH}/libs.ref/sky130_ml_xx_hd/mag;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		drc off;\
-		gds rescale false;\
-		load $* -dereference;\
-		select top cell;\
-		expand;\
-		gds write $*.gds;\
-		exit;" > ./mag/mag2gds_$*.tcl
-	cd ./mag && magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull mag2gds_$*.tcl < /dev/null
-	rm ./mag/mag2gds_$*.tcl
-	mv -f ./mag/$*.gds ./gds/
-
 # Not a target:
 Makefile:
 #  Implicit rule search has not been done.
@@ -1358,29 +1020,10 @@ set_user_id: check-env check-uid uncompress uncompress-caravel
 	$(MAKE) -f $(CARAVEL_ROOT)/Makefile __set_user_id
 	@echo "Set user ID completed." 2>&1 | tee -a ./signoff/build/set_user_id.out
 
-mag2lef-natalius_soc: mag/natalius_soc.mag uncompress
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 474):
-	echo "Converting mag file $* to LEF..."
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath ${PDKPATH}/libs.ref/sky130_ml_xx_hd/mag;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		drc off;\
-		load $*;\
-		lef write $*.lef;\
-		exit;" > ./mag/mag2lef_$*.tcl
-	cd ./mag && magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull mag2lef_$*.tcl < /dev/null
-	rm ./mag/mag2lef_$*.tcl
-	mv -f ./mag/$*.lef ./lef/
-
 skywater-pdk:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
- 
 #  File has not been updated.
 #  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 1245):
 	if [ -d "$(PDK_ROOT)/skywater-pdk" ]; then\
@@ -1400,24 +1043,6 @@ skywater-pdk:
 mag2lef-user_proj_example: mag/user_proj_example.mag uncompress
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: 'user_proj_example'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 474):
-	echo "Converting mag file $* to LEF..."
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath ${PDKPATH}/libs.ref/sky130_ml_xx_hd/mag;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		drc off;\
-		load $*;\
-		lef write $*.lef;\
-		exit;" > ./mag/mag2lef_$*.tcl
-	cd ./mag && magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull mag2lef_$*.tcl < /dev/null
-	rm ./mag/mag2lef_$*.tcl
-	mv -f ./mag/$*.lef ./lef/
-
-mag2lef-natalius_processor: mag/natalius_processor.mag uncompress
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_processor'
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 474):
@@ -1460,24 +1085,6 @@ final: check-env check-uid check-project uncompress uncompress-caravel
 	$(MAKE) -f $(CARAVEL_ROOT)/Makefile __final
 	@echo "Final build completed." 2>&1 | tee -a ./signoff/build/final_build.out
 
-mag2lef-dualport_sram: mag/dualport_sram.mag uncompress
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'dualport_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 474):
-	echo "Converting mag file $* to LEF..."
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath ${PDKPATH}/libs.ref/sky130_ml_xx_hd/mag;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		drc off;\
-		load $*;\
-		lef write $*.lef;\
-		exit;" > ./mag/mag2lef_$*.tcl
-	cd ./mag && magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull mag2lef_$*.tcl < /dev/null
-	rm ./mag/mag2lef_$*.tcl
-	mv -f ./mag/$*.lef ./lef/
-
 caravel/gds/user_analog_project_wrapper_empty.gds.gz.00.split: caravel/gds/user_analog_project_wrapper_empty.gds.gz
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: 'caravel/gds/user_analog_project_wrapper_empty.gds'
@@ -1501,17 +1108,6 @@ __generate_fill:
 	python3 $(CARAVEL_ROOT)/scripts/generate_fill.py $(USER_ID) $(PROJECT) $(shell pwd) -dist 2>&1 | tee ./signoff/build/generate_fill.out
 	#python3 $(CARAVEL_ROOT)/scripts/generate_fill.py $(USER_ID) $(PROJECT) $(shell pwd) -keep 2>&1 | tee ./signoff/build/generate_fill.out
 
-drc-inferred_sram: gds/inferred_sram.gds
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'inferred_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 436):
-	echo "Running DRC on $*"
-	mkdir -p ./gds/tmp
-	cd gds && export DESIGN_IN_DRC=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/drc_on_gds.tcl < /dev/null
-	@echo "DRC result: ./gds/tmp/$*.drc"
-
 open-pdks:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -1526,19 +1122,6 @@ open-pdks:
 	cd $(PDK_ROOT)/open_pdks && \
 		git checkout master && git pull && \
 		git checkout -qf $(OPEN_PDKS_COMMIT)
-
-gds/natalius_soc.gds.gz.00.split: gds/natalius_soc.gds.gz
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'gds/natalius_soc.gds'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 220):
-	@if [ -n "$$(find "$<" -prune -size +$(FILE_SIZE_LIMIT_MB)M)" ]; then\
-		split $< -b $(FILE_SIZE_LIMIT_MB)M $<. -d &&\
-		rm $< &&\
-		for file in $$(ls $<.*); do mv "$$file" "$$file.split"; done &&\
-		echo -n "$< -> $$(ls $<.*.split)" | tr '\n' ' ' && echo "";\
-	fi
 
 # Not a target:
 mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds.gz:
@@ -1579,30 +1162,6 @@ mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/result
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-# Not a target:
-gds/natalius_soc.gds:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-gds/natalius_processor.gds:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-antenna-natalius_soc: gds/natalius_soc.gds
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 445):
-	echo "Running Antenna Checks on $*"
-	mkdir -p ./gds/tmp
-	cd gds && export DESIGN_IN_ANTENNA=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/antenna_on_gds.tcl < /dev/null 2>&1 | tee ./tmp/$*.antenna
-	mv -f ./gds/*.ext ./gds/tmp/
-	@echo "Antenna result: ./gds/tmp/$*.antenna"
 
 .RECIPE: manifest master_manifest
 #  Implicit rule search has not been done.
@@ -1662,27 +1221,6 @@ gds/user_proj_example.gds.gz.00.split: gds/user_proj_example.gds.gz
 #  File has been updated.
 #  Successfully updated.
 
-mag2gds-inferred_sram: mag/inferred_sram.mag uncompress
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'inferred_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 455):
-	echo "Converting mag file $* to GDS..."
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath ${PDKPATH}/libs.ref/sky130_ml_xx_hd/mag;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		drc off;\
-		gds rescale false;\
-		load $* -dereference;\
-		select top cell;\
-		expand;\
-		gds write $*.gds;\
-		exit;" > ./mag/mag2gds_$*.tcl
-	cd ./mag && magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull mag2gds_$*.tcl < /dev/null
-	rm ./mag/mag2gds_$*.tcl
-	mv -f ./mag/$*.gds ./gds/
-
 master_manifest:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -1710,24 +1248,6 @@ mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb4
 		echo "$< -> $@";\
 	fi
 
-# Not a target:
-def/natalius_soc.def:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-antenna-dualport_sram: gds/dualport_sram.gds
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'dualport_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 445):
-	echo "Running Antenna Checks on $*"
-	mkdir -p ./gds/tmp
-	cd gds && export DESIGN_IN_ANTENNA=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/antenna_on_gds.tcl < /dev/null 2>&1 | tee ./tmp/$*.antenna
-	mv -f ./gds/*.ext ./gds/tmp/
-	@echo "Antenna result: ./gds/tmp/$*.antenna"
-
 generate_fill: check-env check-uid check-project uncompress
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -1738,12 +1258,6 @@ generate_fill: check-env check-uid check-project uncompress
 	$(MAKE) -f $(CARAVEL_ROOT)/Makefile __generate_fill
 	@echo "Generate fill completed." 2>&1 | tee -a ./signoff/build/generate_fill.out
 
-# Not a target:
-def/natalius_processor.def:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
 help:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -1752,12 +1266,6 @@ help:
 #  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 504):
  
 	@$(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F: '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$'
-
-# Not a target:
-gds/dualport_sram.gds:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
 
 mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/final/gds/DFFRAM.gds: mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/final/gds/DFFRAM.gds.gz
 #  Implicit rule search has not been done.
@@ -1808,143 +1316,6 @@ pdk: check-env skywater-pdk open-pdks sky130 gen-sources
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-
-mag2lef-inferred_sram: mag/inferred_sram.mag uncompress
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'inferred_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 474):
-	echo "Converting mag file $* to LEF..."
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath ${PDKPATH}/libs.ref/sky130_ml_xx_hd/mag;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		drc off;\
-		load $*;\
-		lef write $*.lef;\
-		exit;" > ./mag/mag2lef_$*.tcl
-	cd ./mag && magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull mag2lef_$*.tcl < /dev/null
-	rm ./mag/mag2lef_$*.tcl
-	mv -f ./mag/$*.lef ./lef/
-
-rcx-natalius_soc: def/natalius_soc.def
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 511):
-	echo "Running RC Extraction on $*"
-	mkdir -p ./def/tmp 
-	# merge techlef and standard cell lef files
-	python3 $(OPENLANE_ROOT)/scripts/mergeLef.py -i $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/techlef/$(STD_CELL_LIBRARY).tlef $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lef/*.lef $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/techlef/$(SPECIAL_VOLTAGE_LIBRARY).tlef $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lef/*.lef $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lef/*.lef -o ./def/tmp/merged.lef
-	echo "\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lib/$(STD_CELL_LIBRARY)__tt_025C_1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30_lv1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lib/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib;\
-		set std_cell_lef ./def/tmp/merged.lef;\
-		set sram_lef $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef;\
-		if {[catch {read_lef \$$std_cell_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		if {[catch {read_lef \$$sram_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		foreach lef_file [glob ./lef/*.lef] {\
-			if {[catch {read_lef \$$lef_file} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-			}\
-		};\
-		if {[catch {read_def -order_wires ./def/$*.def} errmsg]} {\
-			puts stderr \$$errmsg;\
-			exit 1;\
-		};\
-		read_sdc -echo ./sdc/$*.sdc;\
-		set_propagated_clock [all_clocks];\
-		set rc_values \"mcon 9.249146E-3,via 4.5E-3,via2 3.368786E-3,via3 0.376635E-3,via4 0.00580E-3\";\
-		set l_rc \"li1 1.499e-04 7.176e-02,met1 1.449e-04 8.929e-04,met2 1.331e-04 8.929e-04,met3 1.464e-04 1.567e-04,met4 1.297e-04 1.567e-04,met5 1.501e-04 1.781e-05\";\
-		set layers_rc [split \$$l_rc ","];\
-		foreach layer_rc \$$layers_rc {\
-			set layer_name [lindex \$$layer_rc 0];\
-			set capacitance [lindex \$$layer_rc 1];\
-			set resistance [lindex \$$layer_rc 2];\
-			set_layer_rc -layer \$$layer_name -capacitance \$$capacitance -resistance \$$resistance;\
-		};\
-		set vias_rc [split \$$rc_values ","];\
-    	foreach via_rc \$$vias_rc {\
-        		set layer_name [lindex \$$via_rc 0];\
-        		set resistance [lindex \$$via_rc 1];\
-       			set_layer_rc -via \$$layer_name -resistance \$$resistance;\
-    	};\
-		set_wire_rc -signal -layer met2;\
-		set_wire_rc -clock -layer met5;\
-		define_process_corner -ext_model_index 0 X;\
-		extract_parasitics -ext_model_file ${PDK_ROOT}/$(PDK)/libs.tech/openlane/rcx_rules.info -corner_cnt 1 -max_res 50 -coupling_threshold 0.1 -cc_model 10 -context_depth 5;\
-		write_spef ./spef/$*.spef" > ./def/tmp/rcx_$*.tcl
-	docker run -it -v $(OPENLANE_ROOT):/openlane -v $(PDK_ROOT):$(PDK_ROOT) -v $(PWD):/caravel -e PDK_ROOT=$(PDK_ROOT) -u $(shell id -u $(USER)):$(shell id -g $(USER)) $(OPENLANE_IMAGE_NAME) \
-	sh -c " cd /caravel; openroad -exit ./def/tmp/rcx_$*.tcl |& tee ./def/tmp/rcx_$*.log" 
-	echo "\
-		set std_cell_lef ./def/tmp/merged.lef;\
-		set sram_lef $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef;\
-		if {[catch {read_lef \$$std_cell_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		if {[catch {read_lef \$$sram_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		foreach lef_file [glob ./lef/*.lef] {\
-			if {[catch {read_lef \$$lef_file} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-			}\
-		};\
-		set_cmd_units -time ns -capacitance pF -current mA -voltage V -resistance kOhm -distance um;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lib/$(STD_CELL_LIBRARY)__tt_025C_1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lib/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib;\
-		read_verilog ./verilog/gl/$*.v;\
-		link_design $*;\
-		read_spef ./spef/$*.spef;\
-		read_sdc -echo ./sdc/$*.sdc;\
-		write_sdf ./sdf/$*.sdf -divider . -include_typ;\
-		report_checks -fields {capacitance slew input_pins nets fanout} -path_delay min_max -group_count 5;\
-		report_check_types -max_slew -max_capacitance -max_fanout -violators;\
-		report_checks -to [all_outputs] -group_count 1000;\
-		" > ./def/tmp/sta_$*.tcl 
-	docker run -it -v $(OPENLANE_ROOT):/openlane -v $(PDK_ROOT):$(PDK_ROOT) -v $(PWD):/caravel -e PDK_ROOT=$(PDK_ROOT) -u $(shell id -u $(USER)):$(shell id -g $(USER)) $(OPENLANE_IMAGE_NAME) \
-	sh -c "cd /caravel; openroad -exit ./def/tmp/sta_$*.tcl |& tee ./def/tmp/sta_$*.log" 
 
 rcx-user_proj_example: def/user_proj_example.def
 #  Implicit rule search has not been done.
@@ -2070,131 +1441,6 @@ rcx-user_proj_example: def/user_proj_example.def
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-def/dualport_sram.def:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-rcx-natalius_processor: def/natalius_processor.def
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_processor'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 511):
-	echo "Running RC Extraction on $*"
-	mkdir -p ./def/tmp 
-	# merge techlef and standard cell lef files
-	python3 $(OPENLANE_ROOT)/scripts/mergeLef.py -i $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/techlef/$(STD_CELL_LIBRARY).tlef $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lef/*.lef $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/techlef/$(SPECIAL_VOLTAGE_LIBRARY).tlef $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lef/*.lef $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lef/*.lef -o ./def/tmp/merged.lef
-	echo "\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lib/$(STD_CELL_LIBRARY)__tt_025C_1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30_lv1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lib/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib;\
-		set std_cell_lef ./def/tmp/merged.lef;\
-		set sram_lef $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef;\
-		if {[catch {read_lef \$$std_cell_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		if {[catch {read_lef \$$sram_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		foreach lef_file [glob ./lef/*.lef] {\
-			if {[catch {read_lef \$$lef_file} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-			}\
-		};\
-		if {[catch {read_def -order_wires ./def/$*.def} errmsg]} {\
-			puts stderr \$$errmsg;\
-			exit 1;\
-		};\
-		read_sdc -echo ./sdc/$*.sdc;\
-		set_propagated_clock [all_clocks];\
-		set rc_values \"mcon 9.249146E-3,via 4.5E-3,via2 3.368786E-3,via3 0.376635E-3,via4 0.00580E-3\";\
-		set l_rc \"li1 1.499e-04 7.176e-02,met1 1.449e-04 8.929e-04,met2 1.331e-04 8.929e-04,met3 1.464e-04 1.567e-04,met4 1.297e-04 1.567e-04,met5 1.501e-04 1.781e-05\";\
-		set layers_rc [split \$$l_rc ","];\
-		foreach layer_rc \$$layers_rc {\
-			set layer_name [lindex \$$layer_rc 0];\
-			set capacitance [lindex \$$layer_rc 1];\
-			set resistance [lindex \$$layer_rc 2];\
-			set_layer_rc -layer \$$layer_name -capacitance \$$capacitance -resistance \$$resistance;\
-		};\
-		set vias_rc [split \$$rc_values ","];\
-    	foreach via_rc \$$vias_rc {\
-        		set layer_name [lindex \$$via_rc 0];\
-        		set resistance [lindex \$$via_rc 1];\
-       			set_layer_rc -via \$$layer_name -resistance \$$resistance;\
-    	};\
-		set_wire_rc -signal -layer met2;\
-		set_wire_rc -clock -layer met5;\
-		define_process_corner -ext_model_index 0 X;\
-		extract_parasitics -ext_model_file ${PDK_ROOT}/$(PDK)/libs.tech/openlane/rcx_rules.info -corner_cnt 1 -max_res 50 -coupling_threshold 0.1 -cc_model 10 -context_depth 5;\
-		write_spef ./spef/$*.spef" > ./def/tmp/rcx_$*.tcl
-	docker run -it -v $(OPENLANE_ROOT):/openlane -v $(PDK_ROOT):$(PDK_ROOT) -v $(PWD):/caravel -e PDK_ROOT=$(PDK_ROOT) -u $(shell id -u $(USER)):$(shell id -g $(USER)) $(OPENLANE_IMAGE_NAME) \
-	sh -c " cd /caravel; openroad -exit ./def/tmp/rcx_$*.tcl |& tee ./def/tmp/rcx_$*.log" 
-	echo "\
-		set std_cell_lef ./def/tmp/merged.lef;\
-		set sram_lef $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef;\
-		if {[catch {read_lef \$$std_cell_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		if {[catch {read_lef \$$sram_lef} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-		};\
-		foreach lef_file [glob ./lef/*.lef] {\
-			if {[catch {read_lef \$$lef_file} errmsg]} {\
-    			puts stderr \$$errmsg;\
-    			exit 1;\
-			}\
-		};\
-		set_cmd_units -time ns -capacitance pF -current mA -voltage V -resistance kOhm -distance um;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(STD_CELL_LIBRARY)/lib/$(STD_CELL_LIBRARY)__tt_025C_1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/$(SPECIAL_VOLTAGE_LIBRARY)__tt_025C_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(SPECIAL_VOLTAGE_LIBRARY)/lib/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/sky130_sram_macros/lib/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib;\
-		read_liberty $(PDK_ROOT)/$(PDK)/libs.ref/$(IO_LIBRARY)/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib;\
-		read_verilog ./verilog/gl/$*.v;\
-		link_design $*;\
-		read_spef ./spef/$*.spef;\
-		read_sdc -echo ./sdc/$*.sdc;\
-		write_sdf ./sdf/$*.sdf -divider . -include_typ;\
-		report_checks -fields {capacitance slew input_pins nets fanout} -path_delay min_max -group_count 5;\
-		report_check_types -max_slew -max_capacitance -max_fanout -violators;\
-		report_checks -to [all_outputs] -group_count 1000;\
-		" > ./def/tmp/sta_$*.tcl 
-	docker run -it -v $(OPENLANE_ROOT):/openlane -v $(PDK_ROOT):$(PDK_ROOT) -v $(PWD):/caravel -e PDK_ROOT=$(PDK_ROOT) -u $(shell id -u $(USER)):$(shell id -g $(USER)) $(OPENLANE_IMAGE_NAME) \
-	sh -c "cd /caravel; openroad -exit ./def/tmp/sta_$*.tcl |& tee ./def/tmp/sta_$*.log" 
-
 __truck:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -2250,66 +1496,16 @@ def/user_proj_example.def:
 #  Modification time never checked.
 #  File has not been updated.
 
-lvs-natalius_soc: mag/natalius_soc.mag verilog/gl/natalius_soc.v
+drc-user_project_wrapper: gds/user_project_wrapper.gds
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
+#  Implicit/static pattern stem: 'user_project_wrapper'
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 314):
-	echo "Extracting $*"
-	mkdir -p ./mag/tmp
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		addpath $(MCW_ROOT)/mag;\
-		addpath $(CARAVEL_ROOT)/subcells/simple_por/mag;\
-		addpath \$$PDKPATH/libs.ref/sky130_ml_xx_hd/mag;\
-		load $* -dereference;\
-		select top cell;\
-		foreach cell [cellname list children] {\
-			load \$$cell -dereference;\
-			property LEFview TRUE;\
-		};\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract unique;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./mag/extract_$*.tcl
-	cd mag && \
-		export MAGTYPE=maglef; \
-		magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull extract_$*.tcl < /dev/null
-	mv ./mag/$*.spice ./spi/lvs
-	rm ./mag/*.ext
-	mv -f ./mag/extract_$*.tcl ./mag/tmp
-	mv -f ./mag/extract_$*.log ./mag/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
-# Not a target:
-mag/natalius_soc.mag:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-mag/natalius_processor.mag:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 436):
+	echo "Running DRC on $*"
+	mkdir -p ./gds/tmp
+	cd gds && export DESIGN_IN_DRC=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/drc_on_gds.tcl < /dev/null
+	@echo "DRC result: ./gds/tmp/$*.drc"
 
 update_mcw: check-mcw
 #  Phony target (prerequisite of .PHONY).
@@ -2370,136 +1566,6 @@ lvs-user_proj_example: mag/user_proj_example.mag verilog/gl/user_proj_example.v
 	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
 	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
 
-lvs-gds-natalius_soc: gds/natalius_soc.gds verilog/gl/natalius_soc.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 360):
-	echo "Extracting $*"
-	mkdir -p ./gds/tmp
-	echo "	gds flatglob \"*_example_*\";\
-		gds flatten true;\
-		gds read ./$*.gds;\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./gds/extract_$*.tcl
-	cd gds && \
-		magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull extract_$*.tcl < /dev/null
-	mv ./gds/$*.spice ./spi/lvs
-	rm ./gds/*.ext
-	mv -f ./gds/extract_$*.tcl ./gds/tmp
-	mv -f ./gds/extract_$*.log ./gds/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	MAGIC_EXT_USE_GDS=1 sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
- 
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
-lvs-natalius_processor: mag/natalius_processor.mag verilog/gl/natalius_processor.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_processor'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 314):
-	echo "Extracting $*"
-	mkdir -p ./mag/tmp
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		addpath $(MCW_ROOT)/mag;\
-		addpath $(CARAVEL_ROOT)/subcells/simple_por/mag;\
-		addpath \$$PDKPATH/libs.ref/sky130_ml_xx_hd/mag;\
-		load $* -dereference;\
-		select top cell;\
-		foreach cell [cellname list children] {\
-			load \$$cell -dereference;\
-			property LEFview TRUE;\
-		};\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract unique;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./mag/extract_$*.tcl
-	cd mag && \
-		export MAGTYPE=maglef; \
-		magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull extract_$*.tcl < /dev/null
-	mv ./mag/$*.spice ./spi/lvs
-	rm ./mag/*.ext
-	mv -f ./mag/extract_$*.tcl ./mag/tmp
-	mv -f ./mag/extract_$*.log ./mag/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
-lvs-maglef-natalius_soc: mag/natalius_soc.mag verilog/gl/natalius_soc.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 397):
-	echo "Extracting $*"
-	mkdir -p ./maglef/tmp
-	echo "load $* -dereference;\
-		select top cell;\
-		foreach cell [cellname list children] {\
-			load \$$cell -dereference;\
-			property LEFview TRUE;\
-		};\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./mag/extract_$*.tcl
-	cd mag && export MAGTYPE=maglef; magic -noc -dnull extract_$*.tcl < /dev/null
-	mv ./mag/$*.spice ./spi/lvs
-	rm ./maglef/*.ext
-	mv -f ./mag/extract_$*.tcl ./maglef/tmp
-	mv -f ./mag/extract_$*.log ./maglef/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.maglef.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
 mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds.gz.00.split: mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds.gz
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: 'mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds'
@@ -2513,97 +1579,9 @@ mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/result
 		echo -n "$< -> $$(ls $<.*.split)" | tr '\n' ' ' && echo "";\
 	fi
 
-lvs-gds-natalius_processor: gds/natalius_processor.gds verilog/gl/natalius_processor.v
+lvs-maglef-user_proj_example: mag/user_proj_example.mag verilog/gl/user_proj_example.v
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_processor'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 360):
-	echo "Extracting $*"
-	mkdir -p ./gds/tmp
-	echo "	gds flatglob \"*_example_*\";\
-		gds flatten true;\
-		gds read ./$*.gds;\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./gds/extract_$*.tcl
-	cd gds && \
-		magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull extract_$*.tcl < /dev/null
-	mv ./gds/$*.spice ./spi/lvs
-	rm ./gds/*.ext
-	mv -f ./gds/extract_$*.tcl ./gds/tmp
-	mv -f ./gds/extract_$*.log ./gds/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	MAGIC_EXT_USE_GDS=1 sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
-lvs-dualport_sram: mag/dualport_sram.mag verilog/gl/dualport_sram.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'dualport_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 314):
-	echo "Extracting $*"
-	mkdir -p ./mag/tmp
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		addpath $(MCW_ROOT)/mag;\
-		addpath $(CARAVEL_ROOT)/subcells/simple_por/mag;\
-		addpath \$$PDKPATH/libs.ref/sky130_ml_xx_hd/mag;\
-		load $* -dereference;\
-		select top cell;\
-		foreach cell [cellname list children] {\
-			load \$$cell -dereference;\
-			property LEFview TRUE;\
-		};\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract unique;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./mag/extract_$*.tcl
-	cd mag && \
-		export MAGTYPE=maglef; \
-		magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull extract_$*.tcl < /dev/null
-	mv ./mag/$*.spice ./spi/lvs
-	rm ./mag/*.ext
-	mv -f ./mag/extract_$*.tcl ./mag/tmp
-	mv -f ./mag/extract_$*.log ./mag/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
-lvs-maglef-natalius_processor: mag/natalius_processor.mag verilog/gl/natalius_processor.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_processor'
+#  Implicit/static pattern stem: 'user_proj_example'
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 397):
@@ -2650,57 +1628,6 @@ pdk-with-volare: check-python install-volare
 #  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 1223):
 	@volare enable ${OPEN_PDKS_COMMIT}
 
-# Not a target:
-verilog/gl/natalius_soc.v:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-lvs-gds-dualport_sram: gds/dualport_sram.gds verilog/gl/dualport_sram.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'dualport_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 360):
-	echo "Extracting $*"
-	mkdir -p ./gds/tmp
-	echo "	gds flatglob \"*_example_*\";\
-		gds flatten true;\
-		gds read ./$*.gds;\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./gds/extract_$*.tcl
-	cd gds && \
-		magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull extract_$*.tcl < /dev/null
-	mv ./gds/$*.spice ./spi/lvs
-	rm ./gds/*.ext
-	mv -f ./gds/extract_$*.tcl ./gds/tmp
-	mv -f ./gds/extract_$*.log ./gds/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	MAGIC_EXT_USE_GDS=1 sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
-# Not a target:
-verilog/gl/natalius_processor.v:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
 mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/final/gds/mgmt_core_wrapper.gds.gz.00.split: mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/final/gds/mgmt_core_wrapper.gds.gz
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: 'mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/final/gds/mgmt_core_wrapper.gds'
@@ -2730,59 +1657,6 @@ update_caravel:
 #  Modification time never checked.
 #  File has not been updated.
 
-lvs-maglef-dualport_sram: mag/dualport_sram.mag verilog/gl/dualport_sram.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'dualport_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 397):
-	echo "Extracting $*"
-	mkdir -p ./maglef/tmp
-	echo "load $* -dereference;\
-		select top cell;\
-		foreach cell [cellname list children] {\
-			load \$$cell -dereference;\
-			property LEFview TRUE;\
-		};\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./mag/extract_$*.tcl
-	cd mag && export MAGTYPE=maglef; magic -noc -dnull extract_$*.tcl < /dev/null
-	mv ./mag/$*.spice ./spi/lvs
-	rm ./maglef/*.ext
-	mv -f ./mag/extract_$*.tcl ./maglef/tmp
-	mv -f ./mag/extract_$*.log ./maglef/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.maglef.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
-# Not a target:
-mag/dualport_sram.mag:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-gds/inferred_sram.gds:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
 mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds: mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds.gz
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: 'mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds'
@@ -2798,24 +1672,12 @@ def/caravel.def:
 #  Modification time never checked.
 #  File has not been updated.
 
-drc-user_project_wrapper: gds/user_project_wrapper.gds
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'user_project_wrapper'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 436):
-	echo "Running DRC on $*"
-	mkdir -p ./gds/tmp
-	cd gds && export DESIGN_IN_DRC=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/drc_on_gds.tcl < /dev/null
-	@echo "DRC result: ./gds/tmp/$*.drc"
-
 gds/user_project_wrapper.gds.gz: gds/user_project_wrapper.gds
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: 'gds/user_project_wrapper.gds'
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 214):
- 
 	@if ! [ $(suffix $<) = ".$(ARCHIVE_EXT)" ]; then\
 		$(COMPRESS) $< > /dev/null &&\
 		echo "$< -> $@";\
@@ -2826,18 +1688,6 @@ mag/user_proj_example.mag:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-antenna-inferred_sram: gds/inferred_sram.gds
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'inferred_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 445):
-	echo "Running Antenna Checks on $*"
-	mkdir -p ./gds/tmp
-	cd gds && export DESIGN_IN_ANTENNA=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/antenna_on_gds.tcl < /dev/null 2>&1 | tee ./tmp/$*.antenna
-	mv -f ./gds/*.ext ./gds/tmp/
-	@echo "Antenna result: ./gds/tmp/$*.antenna"
 
 mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/final/gds/mgmt_core_wrapper.gds: mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/final/gds/mgmt_core_wrapper.gds.gz
 #  Implicit rule search has not been done.
@@ -2892,12 +1742,7 @@ mag2gds-user_project_wrapper: mag/user_project_wrapper.mag uncompress
 	rm ./mag/mag2gds_$*.tcl
 	mv -f ./mag/$*.gds ./gds/
 
-# Not a target:
-verilog/gl/dualport_sram.v:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
+ 
 pdk-with-sram: pdk
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -2915,12 +1760,6 @@ mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb4
 		for file in $$(ls $<.*); do mv "$$file" "$$file.split"; done &&\
 		echo -n "$< -> $$(ls $<.*.split)" | tr '\n' ' ' && echo "";\
 	fi
-
-# Not a target:
-def/inferred_sram.def:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
 
 uncompress-caravel:
 #  Phony target (prerequisite of .PHONY).
@@ -2993,18 +1832,6 @@ mag2lef-user_project_wrapper: mag/user_project_wrapper.mag uncompress
 	rm ./mag/mag2lef_$*.tcl
 	mv -f ./mag/$*.lef ./lef/
 
-antenna-natalius_processor: gds/natalius_processor.gds
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_processor'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 445):
-	echo "Running Antenna Checks on $*"
-	mkdir -p ./gds/tmp
-	cd gds && export DESIGN_IN_ANTENNA=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/antenna_on_gds.tcl < /dev/null 2>&1 | tee ./tmp/$*.antenna
-	mv -f ./gds/*.ext ./gds/tmp/
-	@echo "Antenna result: ./gds/tmp/$*.antenna"
-
 __ship:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -3062,187 +1889,10 @@ mgmt_core_wrapper/gds/mgmt_core_wrapper.gds.gz:
 #  File has not been updated.
 
 # Not a target:
-mag/inferred_sram.mag:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
 verilog/gl/caravel.v:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-lvs-inferred_sram: mag/inferred_sram.mag verilog/gl/inferred_sram.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'inferred_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 314):
-	echo "Extracting $*"
-	mkdir -p ./mag/tmp
-	echo "addpath $(CARAVEL_ROOT)/mag/hexdigits;\
-		addpath $(CARAVEL_ROOT)/mag/primitives;\
-		addpath $(MCW_ROOT)/mag;\
-		addpath $(CARAVEL_ROOT)/subcells/simple_por/mag;\
-		addpath \$$PDKPATH/libs.ref/sky130_ml_xx_hd/mag;\
-		load $* -dereference;\
-		select top cell;\
-		foreach cell [cellname list children] {\
-			load \$$cell -dereference;\
-			property LEFview TRUE;\
-		};\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract unique;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./mag/extract_$*.tcl
-	cd mag && \
-		export MAGTYPE=maglef; \
-		magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull extract_$*.tcl < /dev/null
-	mv ./mag/$*.spice ./spi/lvs
-	rm ./mag/*.ext
-	mv -f ./mag/extract_$*.tcl ./mag/tmp
-	mv -f ./mag/extract_$*.log ./mag/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
-lvs-maglef-user_proj_example: mag/user_proj_example.mag verilog/gl/user_proj_example.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'user_proj_example'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 397):
-	echo "Extracting $*"
-	mkdir -p ./maglef/tmp
-	echo "load $* -dereference;\
-		select top cell;\
-		foreach cell [cellname list children] {\
-			load \$$cell -dereference;\
-			property LEFview TRUE;\
-		};\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./mag/extract_$*.tcl
-	cd mag && export MAGTYPE=maglef; magic -noc -dnull extract_$*.tcl < /dev/null
-	mv ./mag/$*.spice ./spi/lvs
-	rm ./maglef/*.ext
-	mv -f ./mag/extract_$*.tcl ./maglef/tmp
-	mv -f ./mag/extract_$*.log ./maglef/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.maglef.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
-lvs-gds-inferred_sram: gds/inferred_sram.gds verilog/gl/inferred_sram.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'inferred_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 360):
-	echo "Extracting $*"
-	mkdir -p ./gds/tmp
-	echo "	gds flatglob \"*_example_*\";\
-		gds flatten true;\
-		gds read ./$*.gds;\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./gds/extract_$*.tcl
-	cd gds && \
-		magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull extract_$*.tcl < /dev/null
-	mv ./gds/$*.spice ./spi/lvs
-	rm ./gds/*.ext
-	mv -f ./gds/extract_$*.tcl ./gds/tmp
-	mv -f ./gds/extract_$*.log ./gds/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	MAGIC_EXT_USE_GDS=1 sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
-
-lvs-maglef-inferred_sram: mag/inferred_sram.mag verilog/gl/inferred_sram.v
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'inferred_sram'
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 397):
-	echo "Extracting $*"
-	mkdir -p ./maglef/tmp
-	echo "load $* -dereference;\
-		select top cell;\
-		foreach cell [cellname list children] {\
-			load \$$cell -dereference;\
-			property LEFview TRUE;\
-		};\
-		load $* -dereference;\
-		select top cell;\
-		extract no all;\
-		extract do local;\
-		extract;\
-		ext2spice lvs;\
-		ext2spice $*.ext;\
-		feedback save extract_$*.log;\
-		exit;" > ./mag/extract_$*.tcl
-	cd mag && export MAGTYPE=maglef; magic -noc -dnull extract_$*.tcl < /dev/null
-	mv ./mag/$*.spice ./spi/lvs
-	rm ./maglef/*.ext
-	mv -f ./mag/extract_$*.tcl ./maglef/tmp
-	mv -f ./mag/extract_$*.log ./maglef/tmp
-	####
-	mkdir -p ./spi/lvs/tmp
-	sh $(CARAVEL_ROOT)/spi/lvs/run_lvs.sh ./spi/lvs/$*.spice ./verilog/gl/$*.v $*
-	@echo ""
-	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.maglef.lvs.summary.log
-	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
-	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
- 
-	@echo ""
-	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
-	@echo "Comparison result: ./spi/lvs/tmp/$*.v_comp.out"
-	@awk '/^NET mismatches/,0' ./spi/lvs/tmp/$*.v_comp.out
 
 verify:
 #  Phony target (prerequisite of .PHONY).
@@ -3271,12 +1921,6 @@ uncompress: caravel/gds/user_analog_project_wrapper_empty.gds caravel/gds/user_p
 #  File has not been updated.
 #  recipe to execute (from '/home/fabio/chip_tutorial/upb_natalius_soc/caravel/Makefile', line 250):
 	@echo "All files are uncompressed!"
-
-# Not a target:
-verilog/gl/inferred_sram.v:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
 
 # Not a target:
 mgmt_core_wrapper/gds/DFFRAM.gds.gz:
@@ -3320,12 +1964,6 @@ antenna-user_project_wrapper: gds/user_project_wrapper.gds
 	cd gds && export DESIGN_IN_ANTENNA=$* && export MAGTYPE=mag; magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull $(CARAVEL_ROOT)/gds/antenna_on_gds.tcl < /dev/null 2>&1 | tee ./tmp/$*.antenna
 	mv -f ./gds/*.ext ./gds/tmp/
 	@echo "Antenna result: ./gds/tmp/$*.antenna"
-
-# Not a target:
-openlane/README.src.rst:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
 
 check-python:
 #  Implicit rule search has not been done.
@@ -3505,7 +2143,7 @@ def/user_project_wrapper.def:
 #  Modification time never checked.
 #  File has not been updated.
 
-compress: gds/user_proj_example.gds.gz gds/user_project_wrapper.gds.gz gds/natalius_soc.gds.gz mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb42.pack.gz gds/user_proj_example.gds.gz.00.split gds/user_project_wrapper.gds.gz.00.split gds/natalius_soc.gds.gz.00.split mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb42.pack.gz.00.split caravel/gds/user_analog_project_wrapper_empty.gds.gz.00.split caravel/gds/user_project_wrapper_empty.gds.gz.00.split mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/final/gds/DFFRAM.gds.gz.00.split mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/finishing/DFFRAM.gds.gz.00.split mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.27_21.29.28/results/final/gds/DFFRAM.gds.gz.00.split mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.27_21.29.28/results/finishing/DFFRAM.gds.gz.00.split mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/final/gds/mgmt_core_wrapper.gds.gz.00.split mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds.gz.00.split mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/final/gds/mgmt_core_wrapper.gds.gz.00.split mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/finishing/mgmt_core_wrapper.gds.gz.00.split mgmt_core_wrapper/gds/mgmt_core.gds.gz.00.split mgmt_core_wrapper/gds/mgmt_core_wrapper.gds.gz.00.split mgmt_core_wrapper/gds/DFFRAM.gds.gz.00.split
+compress: gds/user_proj_example.gds.gz gds/user_project_wrapper.gds.gz mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb42.pack.gz gds/user_proj_example.gds.gz.00.split gds/user_project_wrapper.gds.gz.00.split mgmt_core_wrapper/.git/objects/pack/pack-1c12a59ec797908de3508cfc5cfa8f7df3b6eb42.pack.gz.00.split caravel/gds/user_analog_project_wrapper_empty.gds.gz.00.split caravel/gds/user_project_wrapper_empty.gds.gz.00.split mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/final/gds/DFFRAM.gds.gz.00.split mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.26_22.11.38/results/finishing/DFFRAM.gds.gz.00.split mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.27_21.29.28/results/final/gds/DFFRAM.gds.gz.00.split mgmt_core_wrapper/openlane/DFFRAM/runs/RUN_2021.12.27_21.29.28/results/finishing/DFFRAM.gds.gz.00.split mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/final/gds/mgmt_core_wrapper.gds.gz.00.split mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.27_23.52.33/results/finishing/mgmt_core_wrapper.gds.gz.00.split mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/final/gds/mgmt_core_wrapper.gds.gz.00.split mgmt_core_wrapper/openlane/mgmt_core_wrapper/runs/RUN_2021.12.26_22.44.57/results/finishing/mgmt_core_wrapper.gds.gz.00.split mgmt_core_wrapper/gds/mgmt_core.gds.gz.00.split mgmt_core_wrapper/gds/mgmt_core_wrapper.gds.gz.00.split mgmt_core_wrapper/gds/DFFRAM.gds.gz.00.split
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -3611,6 +2249,7 @@ lvs-gds-user_project_wrapper: gds/user_project_wrapper.gds verilog/gl/user_proje
 		feedback save extract_$*.log;\
 		exit;" > ./gds/extract_$*.tcl
 	cd gds && \
+ 
 		magic -rcfile ${PDK_ROOT}/$(PDK)/libs.tech/magic/$(PDK).magicrc -noc -dnull extract_$*.tcl < /dev/null
 	mv ./gds/$*.spice ./spi/lvs
 	rm ./gds/*.ext
@@ -3688,7 +2327,6 @@ lvs-maglef-user_project_wrapper: mag/user_project_wrapper.mag verilog/gl/user_pr
 	python3 $(CARAVEL_ROOT)/scripts/count_lvs.py -f ./verilog/gl/$*.v_comp.json | tee ./spi/lvs/tmp/$*.maglef.lvs.summary.log
 	mv -f ./verilog/gl/*.out ./spi/lvs/tmp 2> /dev/null || true
 	mv -f ./verilog/gl/*.json ./spi/lvs/tmp 2> /dev/null || true
- 
 	mv -f ./verilog/gl/*.log ./spi/lvs/tmp 2> /dev/null || true
 	@echo ""
 	@echo "LVS: ./spi/lvs/$*.spice vs. ./verilog/gl/$*.v"
@@ -3908,20 +2546,20 @@ mgmt_core_wrapper/gds/DFFRAM.gds.gz.00.split: mgmt_core_wrapper/gds/DFFRAM.gds.g
 	fi
 
 # files hash-table stats:
-# Load=184/1024=18%, Rehash=0, Collisions=30/479=6%
+# Load=134/1024=13%, Rehash=0, Collisions=23/373=6%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 207 / storage = 6644 B / avg = 32 B
-# current buf: size = 8162 B / used = 6644 B / count = 207 / avg = 32 B
+# strcache buffers: 1 (0) / strings = 153 / storage = 5439 B / avg = 35 B
+# current buf: size = 8162 B / used = 5439 B / count = 153 / avg = 35 B
 
-# strcache performance: lookups = 643 / hit rate = 67%
+# strcache performance: lookups = 493 / hit rate = 68%
 # hash-table stats:
-# Load=207/8192=3%, Rehash=0, Collisions=6/643=1%
-# Finished Make data base on Tue Jun 14 09:54:34 2022
+# Load=153/8192=2%, Rehash=0, Collisions=2/493=0%
+# Finished Make data base on Tue Jun 14 11:25:45 2022
 
 # make[1]: Leaving directory '/home/fabio/chip_tutorial/upb_natalius_soc'
 # GNU Make 4.2.1
@@ -3931,7 +2569,7 @@ mgmt_core_wrapper/gds/DFFRAM.gds.gz.00.split: mgmt_core_wrapper/gds/DFFRAM.gds.g
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 14 09:54:34 2022
+# Make data base, printed on Tue Jun 14 11:25:45 2022
 
 # Variables
 
@@ -4042,7 +2680,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 38071
+GIO_LAUNCHED_DESKTOP_FILE_PID = 42664
 # automatic
 %F = $(notdir $%)
 # environment
@@ -4056,7 +2694,6 @@ VSCODE_PIPE_LOGGING = true
 # makefile (from 'Makefile', line 78)
 verify_command = "cd ${TARGET_PATH}/verilog/dv/$* && export SIM=${SIM} && make"
 # environment
- 
 PWD = /home/fabio/chip_tutorial/upb_natalius_soc
 # makefile (from 'Makefile', line 27)
 MISMATCHES_OK = 1
@@ -4072,6 +2709,9 @@ GTK_MODULES = gail:atk-bridge
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /home/fabio
+ 
+make: *** [Makefile:47: all] Error 2
+
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
@@ -4107,7 +2747,7 @@ SIM = RTL
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-3c71f133-4058-4044-a146-242c5489a45b.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-76b0f8a4-8f1b-4021-8aa4-be4c3355db70.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -4195,13 +2835,13 @@ LANG = C
 # makefile (from 'Makefile', line 24)
 OPEN_PDKS_COMMIT = 7519dfb04400f224f140749cda44ee7de6f5e095
 # environment
-VSCODE_PID = 38071
+VSCODE_PID = 42664
 # makefile (from 'Makefile', line 18)
 CARAVEL_ROOT = $(PWD)/caravel
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=132/1024=13%, Rehash=0, Collisions=47/284=17%
+# Load=132/1024=13%, Rehash=0, Collisions=47/281=17%
 
 # Pattern-specific Variable Values
 
@@ -4305,23 +2945,11 @@ verify-la_test2-gl-sdf: simenv
 #  recipe to execute (from 'Makefile', line 118):
 	$(docker_run_verify)
 
-.PHONY: check-caravel install simenv setup dualport_sram inferred_sram natalius_processor natalius_soc user_proj_example user_project_wrapper harden verify verify-all-rtl verify-all-gl verify-all-gl-sdf clean-dualport_sram clean-inferred_sram clean-natalius_processor clean-natalius_soc clean-user_proj_example clean-user_project_wrapper what openlane simlink update_caravel uninstall precheck run-precheck clean help
+.PHONY: check-caravel install simenv setup user_proj_example user_project_wrapper harden verify verify-all-rtl verify-all-gl verify-all-gl-sdf clean-user_proj_example clean-user_project_wrapper what openlane simlink update_caravel uninstall precheck run-precheck clean help
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: '.PHONY'
 #  Modification time never checked.
 #  File has not been updated.
-
-# makefile (from 'Makefile', line 112)
-verify-natalius_soc-gl: SIM = GL
-verify-natalius_soc-gl: simenv
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  Modification time never checked.
-#  File has not been updated.
-# variable set hash-table stats:
-# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
-#  recipe to execute (from 'Makefile', line 114):
-	$(docker_run_verify)
 
 # makefile (from 'Makefile', line 112)
 verify-mprj_stimulus-gl: SIM = GL
@@ -4352,15 +2980,6 @@ check-env:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-dualport_sram:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'dualport_sram'
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 70):
-	export CARAVEL_ROOT=$(CARAVEL_ROOT) && cd openlane && $(MAKE) $*
 
 # Not a target:
 install_mcw:
@@ -4397,6 +3016,7 @@ run-precheck: check-pdk check-precheck
 	-u $(shell id -u $(USER)):$(shell id -g $(USER)) efabless/mpw_precheck:latest bash -c "cd $(PRECHECK_ROOT) ; python3 mpw_precheck.py --input_directory $(INPUT_DIRECTORY) --pdk_root $(PDK_ROOT)"
 
 openlane:
+ 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -4416,22 +3036,6 @@ verify-io_ports-rtl: simenv
 #  recipe to execute (from 'Makefile', line 110):
 	$(docker_run_verify)
 
-clean-natalius_soc:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 123):
-	rm -f ./verilog/gl/$*.v
-	rm -f ./spef/$*.spef
-	rm -f ./sdc/$*.sdc
-	rm -f ./sdf/$*.sdf
-	rm -f ./gds/$*.gds
-	rm -f ./mag/$*.mag
-	rm -f ./lef/$*.lef
-	rm -f ./maglef/*.maglef
-
 clean-user_proj_example:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -4448,23 +3052,7 @@ clean-user_proj_example:
 	rm -f ./lef/$*.lef
 	rm -f ./maglef/*.maglef
 
-clean-natalius_processor:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_processor'
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 123):
-	rm -f ./verilog/gl/$*.v
-	rm -f ./spef/$*.spef
-	rm -f ./sdc/$*.sdc
-	rm -f ./sdf/$*.sdf
-	rm -f ./gds/$*.gds
-	rm -f ./mag/$*.mag
-	rm -f ./lef/$*.lef
-	rm -f ./maglef/*.maglef
-
-verify-all-gl: verify-io_ports-gl verify-la_test1-gl verify-la_test2-gl verify-mprj_stimulus-gl verify-natalius_soc-gl verify-wb_port-gl
+verify-all-gl: verify-io_ports-gl verify-la_test1-gl verify-la_test2-gl verify-mprj_stimulus-gl verify-wb_port-gl
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -4487,34 +3075,6 @@ user_proj_example:
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 70):
 	export CARAVEL_ROOT=$(CARAVEL_ROOT) && cd openlane && $(MAKE) $*
-
-# makefile (from 'Makefile', line 108)
-verify-natalius_soc-rtl: SIM = RTL
-verify-natalius_soc-rtl: simenv
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  Modification time never checked.
-#  File has not been updated.
-# variable set hash-table stats:
-# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
-#  recipe to execute (from 'Makefile', line 110):
-	$(docker_run_verify)
-
-clean-dualport_sram:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'dualport_sram'
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 123):
-	rm -f ./verilog/gl/$*.v
-	rm -f ./spef/$*.spef
-	rm -f ./sdc/$*.sdc
-	rm -f ./sdf/$*.sdf
-	rm -f ./gds/$*.gds
-	rm -f ./mag/$*.mag
-	rm -f ./lef/$*.lef
-	rm -f ./maglef/*.maglef
 
 # makefile (from 'Makefile', line 116)
 verify-io_ports-gl-sdf: SIM = GL_SDF
@@ -4563,18 +3123,6 @@ check-precheck:
 	fi
 
 # makefile (from 'Makefile', line 116)
-verify-natalius_soc-gl-sdf: SIM = GL_SDF
-verify-natalius_soc-gl-sdf: simenv
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  Modification time never checked.
-#  File has not been updated.
-# variable set hash-table stats:
-# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
-#  recipe to execute (from 'Makefile', line 118):
-	$(docker_run_verify)
-
-# makefile (from 'Makefile', line 116)
 verify-mprj_stimulus-gl-sdf: SIM = GL_SDF
 verify-mprj_stimulus-gl-sdf: simenv
 #  Implicit rule search has not been done.
@@ -4585,15 +3133,6 @@ verify-mprj_stimulus-gl-sdf: simenv
 # Load=1/32=3%, Rehash=0, Collisions=0/1=0%
 #  recipe to execute (from 'Makefile', line 118):
 	$(docker_run_verify)
-
-inferred_sram:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'inferred_sram'
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 70):
-	export CARAVEL_ROOT=$(CARAVEL_ROOT) && cd openlane && $(MAKE) $*
 
 # Not a target:
 pdk-with-volare:
@@ -4623,7 +3162,7 @@ update_caravel: check-caravel
 #  Modification time never checked.
 #  File has not been updated.
 
-harden: dualport_sram inferred_sram natalius_processor natalius_soc user_proj_example user_project_wrapper
+harden: user_proj_example user_project_wrapper
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -4644,22 +3183,6 @@ simlink: check-caravel
 	cd openlane/user_project_wrapper &&\
 	ln -sf $(PIN_CFG_PATH) pin_order.cfg
 
-clean-inferred_sram:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'inferred_sram'
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 123):
-	rm -f ./verilog/gl/$*.v
-	rm -f ./spef/$*.spef
-	rm -f ./sdc/$*.sdc
-	rm -f ./sdf/$*.sdf
-	rm -f ./gds/$*.gds
-	rm -f ./mag/$*.mag
-	rm -f ./lef/$*.lef
-	rm -f ./maglef/*.maglef
-
 clean:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -4677,9 +3200,6 @@ precheck:
 #  recipe to execute (from 'Makefile', line 172):
 	@git clone --depth=1 --branch $(MPW_TAG) https://github.com/efabless/mpw_precheck.git $(PRECHECK_ROOT)
 	@docker pull efabless/mpw_precheck:latest
- 
-make: *** [Makefile:47: all] Error 2
-
 
 check-pdk:
 #  Implicit rule search has not been done.
@@ -4703,7 +3223,7 @@ verify-la_test2-gl: simenv
 #  recipe to execute (from 'Makefile', line 114):
 	$(docker_run_verify)
 
-verify: verify-io_ports-rtl verify-la_test1-rtl verify-la_test2-rtl verify-mprj_stimulus-rtl verify-natalius_soc-rtl verify-wb_port-rtl
+verify: verify-io_ports-rtl verify-la_test1-rtl verify-la_test2-rtl verify-mprj_stimulus-rtl verify-wb_port-rtl
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -4732,7 +3252,7 @@ check-caravel:
 		exit 1; \
 	fi
 
-verify-all-rtl: verify-io_ports-rtl verify-la_test1-rtl verify-la_test2-rtl verify-mprj_stimulus-rtl verify-natalius_soc-rtl verify-wb_port-rtl
+verify-all-rtl: verify-io_ports-rtl verify-la_test1-rtl verify-la_test2-rtl verify-mprj_stimulus-rtl verify-wb_port-rtl
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -4775,29 +3295,11 @@ user_project_wrapper:
 #  recipe to execute (from 'Makefile', line 70):
 	export CARAVEL_ROOT=$(CARAVEL_ROOT) && cd openlane && $(MAKE) $*
 
-verify-all-gl-sdf: verify-io_ports-gl-sdf verify-la_test1-gl-sdf verify-la_test2-gl-sdf verify-mprj_stimulus-gl-sdf verify-natalius_soc-gl-sdf verify-wb_port-gl-sdf
+verify-all-gl-sdf: verify-io_ports-gl-sdf verify-la_test1-gl-sdf verify-la_test2-gl-sdf verify-mprj_stimulus-gl-sdf verify-wb_port-gl-sdf
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-
-natalius_soc:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_soc'
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 70):
-	export CARAVEL_ROOT=$(CARAVEL_ROOT) && cd openlane && $(MAKE) $*
-
-natalius_processor:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: 'natalius_processor'
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 70):
-	export CARAVEL_ROOT=$(CARAVEL_ROOT) && cd openlane && $(MAKE) $*
 
 simenv:
 #  Phony target (prerequisite of .PHONY).
@@ -4833,19 +3335,20 @@ install:
 	git clone -b $(CARAVEL_TAG) $(CARAVEL_REPO) $(CARAVEL_ROOT) --depth=1
 
 # files hash-table stats:
-# Load=58/1024=6%, Rehash=0, Collisions=4/245=2%
+# Load=47/1024=5%, Rehash=0, Collisions=3/201=1%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 92 / storage = 1182 B / avg = 12 B
-# current buf: size = 8162 B / used = 1182 B / count = 92 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 81 / storage = 964 B / avg = 11 B
+ 
+# current buf: size = 8162 B / used = 964 B / count = 81 / avg = 11 B
 
-# strcache performance: lookups = 303 / hit rate = 69%
+# strcache performance: lookups = 251 / hit rate = 67%
 # hash-table stats:
-# Load=92/8192=1%, Rehash=0, Collisions=1/303=0%
-# Finished Make data base on Tue Jun 14 09:54:34 2022
+# Load=81/8192=1%, Rehash=0, Collisions=1/251=0%
+# Finished Make data base on Tue Jun 14 11:25:45 2022
 
  

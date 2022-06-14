@@ -38,15 +38,28 @@ set ::env(VERILOG_FILES) "\
 	$script_dir/../../verilog/rtl/user_project_wrapper.v"
 
 ## Clock configurations
-set ::env(CLOCK_PORT) "user_clock2"
-set ::env(CLOCK_NET) "natalius_soc_i.clk"
+set ::env(CLOCK_PORT) "wb_clk_i"
 
 set ::env(CLOCK_PERIOD) "10"
 
 ## Internal Macros
+
+# set ::env(GLB_RT_OBS) "                          \
+# 	                li1   150 130  833.1  546.54,\
+# 	                met1  150 130  833.1  546.54,\
+# 	                met2  150 130  833.1  546.54,\
+# 					met3  150 130  833.1  546.54,\
+
+# 					li1   950 130  1633.1 546.54,\
+# 	                met1  950 130  1633.1 546.54,\
+# 	                met2  950 130  1633.1 546.54,\
+#                     met3  950 130  1633.1 546.54,\
+# 	                met5  0 0 2920 3520"
+
 ### Macro PDN Connections
 set ::env(FP_PDN_MACRO_HOOKS) "\
-	natalius_soc_i vccd1 vssd1"
+	ram1 vccd1 vssd1 \
+	ram2 vccd1 vssd1"
 
 ### Macro Placement
 set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
@@ -54,13 +67,13 @@ set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$script_dir/../../verilog/rtl/natalius_soc.v"
+	$::env(PDK_ROOT)/sky130A/libs.ref/sky130_sram_macros/verilog/sky130_sram_2kbyte_1rw1r_32x512_8.v"
 
 set ::env(EXTRA_LEFS) "\
-	$script_dir/../../lef/natalius_soc.lef"
+	$::env(PDK_ROOT)/sky130A/libs.ref/sky130_sram_macros/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef"
 
 set ::env(EXTRA_GDS_FILES) "\
-	$script_dir/../../gds/natalius_soc.gds"
+	$::env(PDK_ROOT)/sky130A/libs.ref/sky130_sram_macros/gds/sky130_sram_2kbyte_1rw1r_32x512_8.gds"
 
 # set ::env(GLB_RT_MAXLAYER) 5
 set ::env(RT_MAX_LAYER) {met4}
@@ -68,6 +81,7 @@ set ::env(RT_MAX_LAYER) {met4}
 # disable pdn check nodes becuase it hangs with multiple power domains.
 # any issue with pdn connections will be flagged with LVS so it is not a critical check.
 set ::env(FP_PDN_CHECK_NODES) 0
+
 
 # The following is because there are no std cells in the example wrapper project.
 set ::env(SYNTH_TOP_LEVEL) 1
@@ -84,3 +98,34 @@ set ::env(DIODE_INSERTION_STRATEGY) 0
 set ::env(FILL_INSERTION) 0
 set ::env(TAP_DECAP_INSERTION) 0
 set ::env(CLOCK_TREE_SYNTH) 0
+
+set ::env(QUIT_ON_LVS_ERROR) "0"
+set ::env(QUIT_ON_MAGIC_DRC) "0"
+set ::env(QUIT_ON_NEGATIVE_WNS) "0"
+set ::env(QUIT_ON_SLEW_VIOLATIONS) "0"
+set ::env(QUIT_ON_TIMING_VIOLATIONS) "0"
+
+# set ::env(FP_PDN_IRDROP) "0"
+# set ::env(FP_PDN_HORIZONTAL_HALO) "10"
+# set ::env(FP_PDN_VERTICAL_HALO) "10"
+
+# #
+
+# set ::env(FP_PDN_CORE_RING_HOFFSET) {12.45}
+# set ::env(FP_PDN_CORE_RING_HSPACING) {1.7}
+# set ::env(FP_PDN_CORE_RING_HWIDTH) {3.1}
+
+# set ::env(FP_PDN_CORE_RING_VOFFSET) {12.45}
+# set ::env(FP_PDN_CORE_RING_VSPACING) {1.7}
+# set ::env(FP_PDN_CORE_RING_VWIDTH) {3.1}
+
+
+# set ::env(FP_PDN_VOFFSET) "5"
+# set ::env(FP_PDN_VPITCH) "80"
+# set ::env(FP_PDN_VSPACING) "15.5"
+# set ::env(FP_PDN_VWIDTH) "3.1"
+
+# set ::env(FP_PDN_HOFFSET) "10"
+# set ::env(FP_PDN_HPITCH) "90"
+# set ::env(FP_PDN_HSPACING) "10"
+# set ::env(FP_PDN_HWIDTH) "3.1"
