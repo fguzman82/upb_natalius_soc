@@ -78,51 +78,37 @@ module user_project_wrapper #(
     output [2:0] user_irq
 );
 
+
+
+natalius_soc natalius_soc_i (
+`ifdef USE_POWER_PINS
+	.vccd1(vccd1),	// User area 1 1.8V power
+	.vssd1(vssd1),	// User area 1 digital ground
+`endif
+    .clk(wb_clk_i),
+    .rst(wb_rst_i),
+    .din(io_in[15:8]),
+    .dout(io_out[23:16]),
+    .io_oeb(io_oeb[28:8]),
+    .hs(io_out[24]),
+    .vs(io_out[25]),
+    .r(io_out[26]),
+    .g(io_out[27]),
+    .b(io_out[28]),
+    // MGMT SoC Wishbone Slave
+    .wbs_cyc_i(wbs_cyc_i),
+    .wbs_stb_i(wbs_stb_i),
+    .web(wbs_we_i),
+    .wmask0(wbs_sel_i[1:0]),
+    .addr0(wbs_adr_i),
+    .din0(wbs_dat_i[15:0]),
+    .dout0(wbs_dat_o[15:0])
+    );
+
+
 /*--------------------------------------*/
 /* User project is instantiated  here   */
 /*--------------------------------------*/
-
-sky130_sram_2kbyte_1rw1r_32x512_8 ram0(
-`ifdef USE_POWER_PINS
-    .vccd1(vccd1),// area 1 1.8V supply
-    .vssd1(vssd1),// area 1 digital ground
-`endif
-    // Port 0: RW
-    .clk0(wb_clk_i),
-    .csb0(wbs_stb_i),
-    .web0(wbs_we_i),
-    .wmask0(wbs_sel_i),
-    .addr0(wbs_adr_i[8:0]),
-    .din0(wbs_dat_i),
-    .dout0(),
-    // Port 1: R
-    .clk1(wb_clk_i),
-    .csb1(wbs_stb_i),
-    .addr1(wbs_adr_i[8:0]),
-    .dout1(wbs_dat_o)
-    );
-
-
-sky130_sram_2kbyte_1rw1r_32x512_8 ram1(
-`ifdef USE_POWER_PINS
-    .vccd1(vccd1),// area 1 1.8V supply
-    .vssd1(vssd1),// area 1 digital ground
-`endif
-    // Port 0: RW
-    .clk0(wb_clk_i),
-    .csb0(wbs_stb_i),
-    .web0(wbs_we_i),
-    .wmask0(wbs_sel_i),
-    .addr0(wbs_adr_i[8:0]),
-    .din0(la_data_in[31:0]),
-    .dout0(),
-    // Port 1: R
-    .clk1(wb_clk_i),
-    .csb1(wbs_stb_i),
-    .addr1(wbs_adr_i[8:0]),
-    .dout1(la_data_out[31:0])
-    );
-
 
 // user_proj_example mprj (
 // `ifdef USE_POWER_PINS
